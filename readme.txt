@@ -88,8 +88,10 @@ When uploading an image to your blog post - simply select the 'none' option just
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed bug that disabled user input via contact form
 
-= Version 1.0 =
+= Version 1.0.1 =
 
 First Release Version
 
