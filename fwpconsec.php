@@ -64,12 +64,12 @@ function fwpcon_pro() { ?>
 
 	<script type='text/javascript'>
 window.addEventListener("keydown",function (e) {
-    if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 85)) {
+    if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 85 || e.which == 80)) {
         e.preventDefault();
     }
 })
         document.keypress = function(e) {
-        if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 85)) {
+        if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 85 || e.which == 80)) {
 }
 return false;
 };

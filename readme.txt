@@ -25,7 +25,7 @@ While this will most certainly help copy-protect your content, do remember that 
 1. Disable right click function on mouse
 2. Disable text selection and drag function on mouse
 3. Disable image drag and drop function
-4. Disable combo keyboard command (CTRL A, C, X, U) functions (No 'Select all', 'Copy', 'Cut', 'Paste', or 'View Source' via Keyboard)
+4. Disable combo keyboard command (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
 5. Disable 'Hold to Copy' function on some mobile devices (Such as iOS)
 6. Protect from iFrames (Full Protection) // ADDED : Forces other sites to load your side outside the frame
 
@@ -90,6 +90,7 @@ When uploading an image to your blog post - simply select the 'none' option just
 
 = 1.0.1 =
 * Fixed bug that disabled user input via contact form
+* Added funtion to disable Print via keyboard (CTRL+P)
 
 = Version 1.0.1 =
 
