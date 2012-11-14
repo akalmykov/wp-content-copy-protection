@@ -2,7 +2,7 @@
 
 /*
   Plugin Name: WP Content Copy Protection
-  Plugin URI: 
+  Plugin URI: http://wordpress.org/extend/plugins/wp-content-copy-protection/
   Description: WP Content Copy Protection is a simple plugin that will prevent plagirism and protect most of your valuable blog content (such as sourcecode, text content, and images) from being copied by others. Very Important : Please see the included readme.txt file for all details and instructions!
   Version: 1.0.1
   Author: RS Publishing
@@ -29,6 +29,12 @@
 
 function fwpcon_pro() { ?>
 <!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz -->
+
+<div align="center"><noscript>
+   <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
+   <div style="font-family: Tahoma; font-size: 14px; background-color:#FFF000">To see this page as it is meant to appear, we ask that you please enable your Javascript!</div></div>
+</noscript></div>
+
 		<script type="text/javascript">
 		function mousedwn(e) 
 		{ 

@@ -28,6 +28,7 @@ While this will most certainly help copy-protect your content, do remember that 
 4. Disable combo keyboard command (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
 5. Disable 'Hold to Copy' function on some mobile devices (Such as iOS)
 6. Protect from iFrames (Full Protection) // ADDED : Forces other sites to load your side outside the frame
+7. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until Javascript is enabled
 
 
 == This Plugin will NOT ==
@@ -43,9 +44,10 @@ While this will most certainly help copy-protect your content, do remember that 
 3. Activate the Full-WP-Content-Security plugin in your WP-admin / Plugins
 4. Enjoy our content protection
 
-== Feedback, Questions, Help, and Suggestions ==
+== Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
 Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protection
+will be glad to help!
 
 
 == Upgrade Notice ==
@@ -53,6 +55,8 @@ Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protec
 None
 
 == Screenshots ==
+
+1. Disabled Javascript Error Message (Client-Side)
 
 
 == Frequently Asked Questions ==
@@ -85,12 +89,26 @@ This plugin works on all major browsers. The full functionality (features) of th
 
 When uploading an image to your blog post - simply select the 'none' option just below your link URL (in the image uploading window). This will disable the LEFT click function on the image. The plugin will take care of the rest!
 
+= How do I Change The Javascript Error Message? = 
+
+Should you wish to change the current Javascript error message, simple go to Line: 35 in the fwpconsec.php file and change it there (replace the existing message). Our upcoming version will include the necessary administration.
+
+= How do I Change the Background Color of the JS Error Message from Yellow? =
+
+Once again, navigate to Line: 35 in the fwpconsec.php file and change it there. The current color code is: #FFF000 (Yellow). You can also change your font and font size here.
+
+= How do I Disable the Javascript Error? =
+
+Should you wish to NOT use the Javascript error message, simply go to fwpconsec.php and hash out Line: 33 - 36.
+
+
 
 == Changelog ==
 
 = 1.0.1 =
 * Fixed bug that disabled user input via contact form
 * Added funtion to disable Print via keyboard (CTRL+P)
+* Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
 
 = Version 1.0.1 =
 
@@ -98,4 +116,5 @@ First Release Version
 
 == Thumbs Up ==
 
-Like our WP plugin? Don't forget to give us a rating.
+Like our WP plugin? Don't forget to give us a rating here ->
+Feel like giving us more than a rating? Donations are super welcome! 
