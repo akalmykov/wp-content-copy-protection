@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source
 Requires at least: 2.0
 Tested up to:      3.4.2
-Stable tag:        1.0.1
+Stable tag:        1.0.2
 License:           GPLv2 or Later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,11 +108,17 @@ Should you wish to NOT use the Javascript error message, simply go to fwpconsec.
 = 1.0.1 =
 * Fixed bug that disabled user input via contact form
 * Added funtion to disable Print via keyboard (CTRL+P)
+
+= 1.0.2 =
 * Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
 
 = Version 1.0.1 =
 
 First Release Version
+
+= Version 1.0.2 =
+
+Updated
 
 == Thumbs Up ==
 
