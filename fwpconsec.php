@@ -108,7 +108,17 @@ document.ondragstart = function(){return false;};
 </script>
 
 <style type="text/css">
-* { -webkit-touch-callout: none; }
+
+    * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+    }
+     
+    img {
+	    -webkit-touch-callout: none;
+        -webkit-user-select: none;
+    }
+
 </style>
 
 <!-- End WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz -->

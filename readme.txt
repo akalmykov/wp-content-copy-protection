@@ -9,16 +9,17 @@ Stable tag:        1.0.2
 License:           GPLv2 or Later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your blog.
+The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your blog content.
 
 
 == Description ==
 
-WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, text selection, as well as keyboard copy shortcuts such as CTRL A, C, X, and U, are disabled with this plugin. There is nothing to administrate here, simply plug in and go!
+WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, text selection, as well as keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. This plugin is also equipped with mobile text/image protection as well as a JS error message which is served to clients with JS disabled. The JS error is served in addition to blank site pages which is only 'removed' once the client enabled his/her JS.
 
 __Please Note__
 
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
+
 
 == Features ==
 
@@ -26,9 +27,9 @@ While this will most certainly help copy-protect your content, do remember that 
 2. Disable text selection and drag function on mouse
 3. Disable image drag and drop function
 4. Disable combo keyboard command (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
-5. Disable 'Hold to Copy' function on some mobile devices (Such as iOS)
+5. Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
 6. Protect from iFrames (Full Protection) // ADDED : Forces other sites to load your side outside the frame
-7. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until Javascript is enabled
+7. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
 
 
 == This Plugin will NOT ==
@@ -47,16 +48,19 @@ While this will most certainly help copy-protect your content, do remember that 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
 Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protection
-will be glad to help!
 
 
 == Upgrade Notice ==
 
-None
+= Version 1.0.2 = 
+
+This version includes a JS error message which is served to clients with Javascript disabled on both PC and mobile devices. The message is served to the client along with blank site pages which is only 'removed' once he/she enables Javascript. We have also added mobile image hold/copy protection, and fixed a bug in the mobile text copy/hold code.
+
 
 == Screenshots ==
 
 1. Disabled Javascript Error Message (Client-Side)
+2. Testing JS error message in Mobile
 
 
 == Frequently Asked Questions ==
@@ -93,14 +97,9 @@ When uploading an image to your blog post - simply select the 'none' option just
 
 Should you wish to change the current Javascript error message, simple go to Line: 35 in the fwpconsec.php file and change it there (replace the existing message). Our upcoming version will include the necessary administration.
 
-= How do I Change the Background Color of the JS Error Message from Yellow? =
+= How do I Change the Font and the Background Color of the JS Error Message? =
 
 Once again, navigate to Line: 35 in the fwpconsec.php file and change it there. The current color code is: #FFF000 (Yellow). You can also change your font and font size here.
-
-= How do I Disable the Javascript Error? =
-
-Should you wish to NOT use the Javascript error message, simply go to fwpconsec.php and hash out Line: 33 - 36.
-
 
 
 == Changelog ==
@@ -111,6 +110,8 @@ Should you wish to NOT use the Javascript error message, simply go to fwpconsec.
 
 = 1.0.2 =
 * Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
+* Added mobile image hold/cop protection (works on most mobile devices)
+* Fixed a bug mobile text protection code
 
 = Version 1.0.1 =
 
@@ -122,5 +123,4 @@ Updated
 
 == Thumbs Up ==
 
-Like our WP plugin? Don't forget to give us a rating here ->
-Feel like giving us more than a rating? Donations are super welcome! 
+Love our work? Kindly leave us a rating, a review, or even a donation - we accept them all! Should you wish to thank us the good 'ol way, then feel free to share us with your friends via twitter, Facebook, or even a blog post. 
