@@ -110,8 +110,8 @@ Once again, navigate to Line: 35 in the fwpconsec.php file and change it there. 
 
 = 1.0.2 =
 * Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
-* Added mobile image hold/cop protection (works on most mobile devices)
-* Fixed a bug mobile text protection code
+* Added mobile image hold/copy protection (works on most mobile devices)
+* Fixed a bug in mobile text protection code
 
 = Version 1.0.1 =
 
