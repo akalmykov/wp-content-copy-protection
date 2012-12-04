@@ -3,7 +3,7 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://wordpress.org/extend/plugins/wp-content-copy-protection/
-  Description: WP Content Copy Protection is a simple plugin that will prevent plagirism and protect most of your valuable blog content (such as sourcecode, text content, and images) from being copied by others. Very Important : Please see the included readme.txt file for all details and instructions!
+  Description: WP Content Copy Protection is a simple plugin that will prevent plagirism and protect most of your valuable blog content (such as source code, text content, and images) from being copied by others. See Readme file for full instructions and FAQ
   Version: 1.0.2
   Author: RS Publishing
   License: GPL2
@@ -46,27 +46,13 @@ function fwpcon_pro() { ?>
     		event.preventDefault();
     		event.stopPropagation();
     			return false;
-};
+		};
+
 		document.oncontextmenu = function() { return false; }
 		document.ondragstart   = function() { return false; }
 		document.onmousedown   = mousedwn;
 		</script>	
 
-		<script type="text/javascript">
-			document.onselectstart=function(){
-				if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password") {
-					return false;}
-				else {
-					return true;}};
-					if (window.sidebar) {
-						document.onmousedown = function(e){
-						var obj=e.target;
-					if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD") {
-						return true;	}
-					else {
-						return false;	}};
-				}
-				</script>
 
 	<script type='text/javascript'>
 window.addEventListener("keydown",function (e) {
@@ -81,25 +67,9 @@ return false;
 };
 </script>
 
-	<script type='text/javascript'>
-	try{
-	var parent_location = parent.location.href.toLowerCase();
-	if(parent){
-	if ( top.location.href.toLowerCase() != document.location.href.toLowerCase()){
-	if(parent_location.indexOf('{<?php echo $home_url; ?>}') != 0 ){
-	top.location.href = document.location.href;
-				}
-			}
-		}
-	}
-	catch ( err ){
-		if(typeof window.console != "undefined"){
-			console.log(err);
-		}
-		top.location.href = document.location.href;
-	}
-	if (parent.frames.length > 0) top.location.replace(document.location)
-	</script>
+<script language="JavaScript" type="text/javascript">
+if (top.location != self.location) top.location.replace(self.location);
+</script>
 
 <meta http-equiv="imagetoolbar" content="no">
 
@@ -108,17 +78,13 @@ document.ondragstart = function(){return false;};
 </script>
 
 <style type="text/css">
-
     * {
         -webkit-touch-callout: none;
-        -webkit-user-select: none;
-    }
-     
-    img {
-	    -webkit-touch-callout: none;
-        -webkit-user-select: none;
     }
 
+  img {
+	    -webkit-touch-callout: none;
+    }
 </style>
 
 <!-- End WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz -->

@@ -14,9 +14,11 @@ The WP Content Copy Protection plugin uses multiple techniques in copy-protectin
 
 == Description ==
 
-WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, text selection, as well as keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. This plugin is also equipped with mobile text/image protection as well as a JS error message which is served to clients with JS disabled. The JS error is served in addition to blank site pages which is only 'removed' once the client enabled his/her JS.
+WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, and keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
-__Please Note__
+This plugin is also equipped with mobile text/image protection as well as a Javascript error message which is served to clients with their Javascript disabled. The JS error is served in addition to blank site pages which is only 'removed' once the client enables his/her JS.
+
+__NOTICE__
 
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
@@ -24,13 +26,11 @@ While this will most certainly help copy-protect your content, do remember that 
 == Features ==
 
 1. Disable right click function on mouse
-2. Disable text selection and drag function on mouse
-3. Disable image drag and drop function
-4. Disable combo keyboard command (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
-5. Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
-6. Protect from iFrames (Full Protection) // ADDED : Forces other sites to load your side outside the frame
-7. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
-
+2. Disable image drag and drop function
+3. Disable combo keyboard command (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
+4. Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
+5. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
+6. iFrame Protection (Buster)
 
 == This Plugin will NOT ==
 
@@ -101,6 +101,9 @@ Should you wish to change the current Javascript error message, simple go to Lin
 
 Once again, navigate to Line: 35 in the fwpconsec.php file and change it there. The current color code is: #FFF000 (Yellow). You can also change your font and font size here.
 
+= Why did you Decide to Re-enable Text Selection ? =
+
+The text selection function was re-enabled simply to give users more "freedom" (knowing that even with text selection - they are still unable to actually copy any selected text). This way, the users are also LESS aware of the actual protection running in the backend (in hope of decreasing bounce rate). 
 
 == Changelog ==
 
@@ -109,9 +112,12 @@ Once again, navigate to Line: 35 in the fwpconsec.php file and change it there. 
 * Added funtion to disable Print via keyboard (CTRL+P)
 
 = 1.0.2 =
-* Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
-* Added mobile image hold/copy protection (works on most mobile devices)
-* Fixed a bug in mobile text protection code
+* Re-enabled text selection (giving users more "freedom"). However, users are still unable to copy any selected text
+* Fixed User input error (this error prevented users from text input via contact, search, and comment forms)
+* Fixed a bug in mobile text protection code (conflicted with Chrome specific user input)
+* Fixed Javascript drop down menu functionality
+* Revamped iFrame breaking code
+
 
 = Version 1.0.1 =
 
@@ -119,7 +125,8 @@ First Release Version
 
 = Version 1.0.2 =
 
-Updated
+* Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
+* Added mobile image hold/copy protection (works on most mobile devices)
 
 == Thumbs Up ==
 
