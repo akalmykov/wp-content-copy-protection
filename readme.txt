@@ -130,4 +130,5 @@ First Release Version
 
 == Thumbs Up ==
 
-Love our work? Kindly leave us a rating, a review, or even a donation - we accept them all! Should you wish to thank us the good 'ol way, then feel free to share us with your friends via twitter, Facebook, or even a blog post. 
+Love our work? Kindly leave us a rating, a review, or even a donation - we accept them all!
+Looking to Secure your Wordpress site/blog the easy way? Come and visit us at [Securiilock] (http://www.securiilock.com). 
