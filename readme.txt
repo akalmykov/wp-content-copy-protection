@@ -30,7 +30,7 @@ Features
 * Disables combo keyboard command (CTRL A, C, X, U, P) copy/paste/print/view source functions
 * Automatically removes the image link URL and defaults the upload settings to 'none'
 
-Donations - Help us Keep WP Content Coopy Protection Alive
+Donations - Help us Keep WP Content Copy Protection Alive
 
 Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ) as this would help us keep the WP Content Copy Protection plugin alive and updated !
 
