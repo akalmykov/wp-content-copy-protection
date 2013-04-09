@@ -57,7 +57,7 @@ Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protec
 
 = Version 1.0.3 = 
 
-Added function - Pugin now automatically removes the image link URL and defaults the image upload settings to 'none' (helps deter image theft)
+Plugin now automatically removes the image link URL and defaults the image upload settings to 'none' (helps deter image theft)
 
 == Screenshots ==
 
@@ -108,6 +108,7 @@ The text selection function was re-enabled simply to give users more "freedom" (
 == Changelog ==
 
 = 1.0.1 =
+* First release version
 * Fixed bug that disabled user input via contact form
 * Added funtion to disable Print via keyboard (CTRL+P)
 
@@ -117,20 +118,6 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * Fixed a bug in mobile text protection code (conflicted with Chrome specific user input)
 * Fixed Javascript drop down menu functionality
 * Revamped iFrame breaking code
-
-= 1.0.3 = 
-* Added function to automatically remove the image link URL and defaults the image upload settings to 'none' (deters image theft)
-* Fixed a bug that prevented text input (via forms) in Chrome browsers
-* Did some housekeeping
-
-= Version 1.0.1 =
-
-First Release Version
-
-= Version 1.0.2 =
-
-* Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
-* Added mobile image hold/copy protection (works on most mobile devices)
 
 = 1.0.3 = 
 * Added function to automatically remove the image link URL and defaults the image upload settings to 'none' (deters image theft)
