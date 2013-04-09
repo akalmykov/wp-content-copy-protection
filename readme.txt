@@ -1,7 +1,7 @@
 === WP Content Copy Protection ===
 
 Contributors:      RS Publishing
-Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL      
+Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
 Requires at least: 2.0
 Tested up to:      3.4.2
