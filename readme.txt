@@ -18,22 +18,20 @@ WP Content Copy Protection is a simple plugin that uses multiple techniques in c
 
 This plugin is also equipped with mobile text/image protection as well as a Javascript error message which is served to clients with their Javascript disabled. The JS error is served in addition to blank site pages which is only 'removed' once the client enables his/her JS.
 
-__NOTICE__
-
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
 
-__Features__
+Features
 
-1. Disable right click function on mouse
-2. Disable image drag and drop function
-3. Disable combo keyboard commands (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
-4. Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
-5. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
-6. Automatically removes the image link URL and defaults the upload settings to 'none' (deters image theft)
-7. iFrame Protection
+* Disable right click function on mouse
+* Disable image drag and drop function
+* Disable combo keyboard commands (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
+* Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
+* Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
+* Automatically removes the image link URL and defaults the upload settings to 'none' (deters image theft)
+* iFrame Protection
 
-__Donations__
+Donations
 
 Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL) as this would help us keep the WP Content Copy Protection plugin alive and updated !
 
