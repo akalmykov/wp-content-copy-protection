@@ -23,7 +23,7 @@ __NOTICE__
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
 
-== Features ==
+__Features__
 
 1. Disable right click function on mouse
 2. Disable image drag and drop function
@@ -32,6 +32,10 @@ While this will most certainly help copy-protect your content, do remember that 
 5. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
 6. Automatically removes the image link URL and defaults the upload settings to 'none' (deters image theft)
 7. iFrame Protection
+
+__Donations__
+
+Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL) as this would help us keep the WP Content Copy Protection plugin alive and updated !
 
 
 == This Plugin will NOT ==
@@ -129,7 +133,3 @@ First Release Version
 
 * Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
 * Added mobile image hold/copy protection (works on most mobile devices)
-
-== Donations ==
-
-Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL) as this would help us keep the WP Content Copy Protection plugin alive and updated !
