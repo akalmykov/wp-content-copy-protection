@@ -20,20 +20,19 @@ This plugin is also equipped with mobile text/image protection as well as a Java
 
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
-
 Features
 
-* Disable right click function on mouse
-* Disable image drag and drop function
-* Disable combo keyboard commands (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
-* Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
-* Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
-* Automatically removes the image link URL and defaults the upload settings to 'none' (deters image theft)
 * iFrame Protection
+* Disables right click function on mouse
+* Disables image drag and drop function
+* Disables 'Hold to Copy' function on most mobile devices
+* Displays a client-side error message when Javascript is disabled
+* Disables combo keyboard command (CTRL A, C, X, U, P) copy/paste/print/view source functions
+* Automatically removes the image link URL and defaults the upload settings to 'none'
 
-Donations
+Donations - Help us Keep WP Content Coopy Protection Alive
 
-Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL) as this would help us keep the WP Content Copy Protection plugin alive and updated !
+Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ) as this would help us keep the WP Content Copy Protection plugin alive and updated !
 
 
 == This Plugin will NOT ==
