@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
 Requires at least: 2.0
 Tested up to:      3.4.2
-Stable tag:        1.0.2
+Stable tag:        1.0.3
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,16 +55,13 @@ Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protec
 
 == Upgrade Notice ==
 
-= Version 1.0.2 = 
+= Version 1.0.3 = 
 
-This version includes a JS error message which is served to clients with Javascript disabled on both PC and mobile devices. The message is served to the client along with blank site pages which is only 'removed' once he/she enables Javascript. We have also added mobile image hold/copy protection, and fixed a bug in the mobile text copy/hold code.
-This version automatically removes the image link URL and defaults the image upload settings to 'none' (deters image theft).
+Added function - Pugin now automatically removes the image link URL and defaults the image upload settings to 'none' (helps deter image theft)
 
 == Screenshots ==
 
-1. Disabled Javascript Error Message (Client-Side)
-2. Testing JS error message in Mobile
-
+none
 
 == Frequently Asked Questions ==
 
@@ -118,9 +115,13 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * Re-enabled text selection (giving users more "freedom"). However, users are still unable to copy any selected text
 * Fixed User input error (this error prevented users from text input via contact, search, and comment forms)
 * Fixed a bug in mobile text protection code (conflicted with Chrome specific user input)
-* Added automatical removal of image link URL inclusion when uploading images (defaults to the 'none' setting)
 * Fixed Javascript drop down menu functionality
 * Revamped iFrame breaking code
+
+= 1.0.3 = 
+* Added function to automatically remove the image link URL and defaults the image upload settings to 'none' (deters image theft)
+* Fixed a bug that prevented text input (via forms) in Chrome browsers
+* Did some housekeeping
 
 = Version 1.0.1 =
 
@@ -130,3 +131,8 @@ First Release Version
 
 * Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
 * Added mobile image hold/copy protection (works on most mobile devices)
+
+= 1.0.3 = 
+* Added function to automatically remove the image link URL and defaults the image upload settings to 'none' (deters image theft)
+* Fixed a bug that prevented text input (via forms) in Chrome browsers
+* Did some housekeeping
