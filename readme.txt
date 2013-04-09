@@ -2,7 +2,7 @@
 
 Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL      
-Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft
+Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
 Requires at least: 2.0
 Tested up to:      3.4.2
 Stable tag:        1.0.2
@@ -27,10 +27,12 @@ While this will most certainly help copy-protect your content, do remember that 
 
 1. Disable right click function on mouse
 2. Disable image drag and drop function
-3. Disable combo keyboard command (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
+3. Disable combo keyboard commands (CTRL A, C, X, U, P) functions (No 'Select all', 'Copy', 'Cut', 'Paste', 'View Source', or Print via Keyboard)
 4. Disable 'Hold to Copy' function on most mobile devices. (Protects images and text from copy in most mobile devices)
 5. Displays a client-side error message when Javascript is disabled AND serves the client with blank pages until he/she enables Javascript
-6. iFrame Protection (Buster)
+6. Automatically removes the image link URL and defaults the upload settings to 'none' (deters image theft)
+7. iFrame Protection
+
 
 == This Plugin will NOT ==
 
@@ -55,7 +57,7 @@ Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protec
 = Version 1.0.2 = 
 
 This version includes a JS error message which is served to clients with Javascript disabled on both PC and mobile devices. The message is served to the client along with blank site pages which is only 'removed' once he/she enables Javascript. We have also added mobile image hold/copy protection, and fixed a bug in the mobile text copy/hold code.
-
+This version automatically removes the image link URL and defaults the image upload settings to 'none' (deters image theft).
 
 == Screenshots ==
 
@@ -115,9 +117,9 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * Re-enabled text selection (giving users more "freedom"). However, users are still unable to copy any selected text
 * Fixed User input error (this error prevented users from text input via contact, search, and comment forms)
 * Fixed a bug in mobile text protection code (conflicted with Chrome specific user input)
+* Added automatical removal of image link URL inclusion when uploading images (defaults to the 'none' setting)
 * Fixed Javascript drop down menu functionality
 * Revamped iFrame breaking code
-
 
 = Version 1.0.1 =
 
@@ -128,7 +130,6 @@ First Release Version
 * Added Javascript Error Message Function (Serves blank pages until user enables his/her JS)
 * Added mobile image hold/copy protection (works on most mobile devices)
 
-== Thumbs Up ==
+== Donations ==
 
-Love our work? Kindly leave us a rating, a review, or even a donation - we accept them all!
-Looking to Secure your Wordpress site/blog the easy way? Come and visit us at [Securiilock] (http://www.securiilock.com). 
+Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NDAS4Y5H72HL) as this would help us keep the WP Content Copy Protection plugin alive and updated !
