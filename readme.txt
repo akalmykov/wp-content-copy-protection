@@ -27,13 +27,14 @@ Features
 * Disables image drag and drop function
 * Disables 'Hold to Copy' function on most mobile devices
 * Displays a client-side error message when Javascript is disabled
-* Disables combo keyboard command (CTRL A, C, X, U, P) copy/paste/print/view source functions
+* Disables combo keyboard command (CTRL A, C, X, U, P) copy/paste/print/view source
 * Automatically removes the image link URL and defaults the upload settings to 'none'
 
 Donations - Help us Keep WP Content Copy Protection Alive
 
 Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ) as this would help us keep the WP Content Copy Protection plugin alive and updated !
 
+Alternatively, please support us by purchasing our WP Noob Security plugin here : https://sellfy.com/p/PH2n. This plugin auto creates a secured root htaccess file and is suitable for newly launched WP driven blogs.
 
 == This Plugin will NOT ==
 
