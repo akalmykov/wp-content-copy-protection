@@ -3,7 +3,7 @@
 Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
-Requires at least: 2.0
+Requires at least: 3.0
 Tested up to:      3.5
 Stable tag:        1.0.4
 License:           GPLv2 or Later
@@ -28,7 +28,7 @@ Features
 * Disables 'Hold to Copy' function on most mobile devices
 * Displays a client-side error message when Javascript is disabled
 * Serves blank pages when JS is turned off in user browser (user is forced to enable JS)
-* Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view page source
+* Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view source
 * The image link URL is automatically removed and defaulted to the ‘none’ setting in your image uploads (deters image theft)
 
 PRO Version included features :
@@ -61,7 +61,7 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.3 = 
+= Version 1.0.4 = 
 
 * added settings page (pro version)
 * Cleared ctrl + f5 (hard refresh) issue - no longer conflicts with other ctrl key functions
