@@ -3,7 +3,7 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://www.securiilock.com/our-plugins/
-  Description: WP Content Copy Protection is a simple plugin that will prevent plagirism and protect most of your valuable blog content (such as source code, text content, and images) from being copied by others. See Readme file for full instructions and FAQ
+  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable blog content (such as source code, text content, and images) from being copied by others.
   Version: 1.0.3
   Author: RS Publishing
   Author URI: http://www.securiilock.com
@@ -28,10 +28,29 @@
   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
+if(is_admin()) {
+	add_action('admin_menu', 'constr_menu');
+	add_action('admin_init', 'regis_options'); 
+}
+
+function constr_menu() {
+	add_options_page('WP Content Copy Protection', 'WP Content Copy Protection', 'manage_options', 'wpcp_options', 'return_settings');
+}
+
+function return_settings() {
+	require_once('pro.php');
+}
+
+
+add_action('wp_head',   'fwpcon_pro');
+
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() { ?>
-<!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz -->
+function fwpcon_pro() { 
+
+?>
+
+<!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Starts -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
@@ -86,7 +105,24 @@ window.addEventListener("keydown",function (e) {
 				};
 </script>
 
-<!-- End WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz -->
-<?php } add_action('wp_head',   'fwpcon_pro');
+<!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Ends -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php 
+
+} 
 ?>

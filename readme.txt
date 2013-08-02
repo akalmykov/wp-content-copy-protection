@@ -4,8 +4,8 @@ Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
 Requires at least: 2.0
-Tested up to:      3.4.2
-Stable tag:        1.0.3
+Tested up to:      3.5
+Stable tag:        1.0.4
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,19 +27,24 @@ Features
 * Disables image drag and drop function
 * Disables 'Hold to Copy' function on most mobile devices
 * Displays a client-side error message when Javascript is disabled
-* Disables combo keyboard command (CTRL A, C, X, U, P) copy/paste/print/view source
-* Automatically removes the image link URL and defaults the upload settings to 'none'
+* Serves blank pages when JS is turned off in user browser (user is forced to enable JS)
+* Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view page source
+* The image link URL is automatically removed and defaulted to the ‘none’ setting in your image uploads (deters image theft)
 
-Donations - Help us Keep WP Content Copy Protection Alive
+PRO Version included features :
 
-Love our work? Please consider making a donation via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ) as this would help us keep the WP Content Copy Protection plugin alive and updated !
+* Admin can exclude specific pages from being copy protected (all mouse and keyboard functions)
+* Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
+* WPCCP is fully compatible with the latest WP versions (3.5 and 3.6 (Oscar))
+* WPCCP is fully compatible with all major browsers
 
-Alternatively, please support us by purchasing our WP Noob Security plugin here : https://sellfy.com/p/PH2n. This plugin auto creates a secured root htaccess file and is suitable for newly launched WP driven blogs.
+
+Wordpress Content Copy Protection PRO can be found Here : [PayPal] https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59BWFE8ZNREBL
 
 == This Plugin will NOT ==
 
-1. Have any negative effect on your SEO
-2. Have any negative effect on your Advertising (such as Adsense) : Ad codes are NOT affected by this plugin in any way
+1. Have any negative impact on your SEO
+2. Have any negative effect on your Advertising (such as Adsense) : Ad codes are NOT affected by this plugin in any way !
 
 
 == Installation ==
@@ -51,14 +56,19 @@ Alternatively, please support us by purchasing our WP Noob Security plugin here 
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
-Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Content Copy Protection
+Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy Protection
 
 
 == Upgrade Notice ==
 
 = Version 1.0.3 = 
 
-Plugin now automatically removes the image link URL and defaults the image upload settings to 'none' (helps deter image theft)
+* added settings page (pro version)
+* Cleared ctrl + f5 (hard refresh) issue - no longer conflicts with other ctrl key functions
+* Cleared bug that caused dropdown and user input issues
+* Changed readme.txt and corrected typo errors
+* Removed included screenshots
+* General housekeeping
 
 == Screenshots ==
 
@@ -72,11 +82,7 @@ No! This plugin will only affect the user's browser (attempting to copy your con
 
 = Will this plugin disable the features from the site administrator also? =
 
-The plugin will disable the given features for everyone (including site administration) at this stage. However, we are looking to disable this in our update.
-
-= I need to Hard Refresh (CTRL + F5) my Page, but the CTRL Key Function is Locked. What now? = 
-
-Simply move your mouse pointer into your browser's URL (address) bar and then execute CTRL + F5 for a hard refresh. This function will (like all other content protection measures through the plugin), remain UN-executable in the current window, however, trigger from the URL/address bar. This was tested on all major browsers (latest versions).
+Yes ! However, our PRO version allows the admin to enable/disable copy protect functions for registered and logged in users
 
 = Will your WP Content Copy Protection Plugin affect my Advertising (Adsense)? =
 
@@ -89,18 +95,6 @@ This function was removed mainly due to the fact that it could scare away your w
 = Does your Plugin work on all major Browsers? =
 
 This plugin works on all major browsers. The full functionality (features) of this plugin was tested on the latest versions of IE (Internet Explorer), Mozilla FF, and Chrome without any problems.
-
-= How do I manually Disable my Image Link URL as Users Can Still LEFT Click on my Images? =
-
-When uploading an image to your blog post - simply select the 'none' option just below your link URL (in the image uploading window). This will disable the LEFT click function on the image. The plugin will take care of the rest!
-
-= How do I Change The Javascript Error Message? = 
-
-Should you wish to change the current Javascript error message, simple go to Line: 35 in the fwpconsec.php file and change it there (replace the existing message). Our upcoming version will include the necessary administration.
-
-= How do I Change the Font and the Background Color of the JS Error Message? =
-
-Once again, navigate to Line: 35 in the fwpconsec.php file and change it there. The current color code is: #FFF000 (Yellow). You can also change your font and font size here.
 
 = Why did you Decide to Re-enable Text Selection ? =
 
@@ -124,3 +118,11 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * Added function to automatically remove the image link URL and defaults the image upload settings to 'none' (deters image theft)
 * Fixed a bug that prevented text input (via forms) in Chrome browsers
 * Did some housekeeping
+
+= 1.0.4 = 
+* added settings page
+* Cleared ctrl + f5 (hard refresh) issue - no longer conflicts with other ctrl key functions
+* Cleared bug that caused dropdown and user input issues
+* Changed readme.txt and corrected typo errors
+* Removed included screenshots
+* General housekeeping
