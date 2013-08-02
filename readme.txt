@@ -39,7 +39,7 @@ PRO Version included features :
 * WPCCP is fully compatible with all major browsers
 
 
-Wordpress Content Copy Protection PRO can be found Here : [PayPal] https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59BWFE8ZNREBL
+Wordpress Content Copy Protection PRO can be found [Here] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59BWFE8ZNREBL)
 
 == This Plugin will NOT ==
 
