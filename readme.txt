@@ -16,9 +16,9 @@ The WP Content Copy Protection plugin uses multiple techniques in copy-protectin
 
 WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, and keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
-This plugin is also equipped with mobile text/image protection as well as a Javascript error message which is served to clients with their Javascript disabled. The JS error is served in addition to blank site pages which is only 'removed' once the client enables his/her JS.
-
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
+
+Wordpress Content Copy Protection PRO is now available !
 
 Features
 
