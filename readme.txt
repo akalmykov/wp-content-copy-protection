@@ -29,13 +29,13 @@ Features
 * Displays a client-side error message when Javascript is disabled
 * Serves blank pages when JS is turned off in user browser (user is forced to enable JS)
 * Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view source
-* The image link URL is automatically removed and defaulted to the ‘none’ setting in your image uploads (deters image theft)
+* The image link URL is automatically removed and defaulted to the none setting in your image uploads (deters image theft)
 
 PRO Version included features :
 
-* Admin can exclude specific pages from being copy protected (all mouse and keyboard functions)
+* Admin can exclude specific pages from being copy protected (all protection functions)
 * Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
-* WPCCP is fully compatible with the latest WP versions (3.5 and 3.6 (Oscar))
+* WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)
 * WPCCP is fully compatible with all major browsers
 
 
