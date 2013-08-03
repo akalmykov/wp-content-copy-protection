@@ -3,7 +3,7 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://www.securiilock.com/our-plugins/
-  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable blog content (such as source code, text content, and images) from being copied by others.
+  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable blog content (such as source code, text content, and images) from being copied by others. PRO version is available ! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a>
   Version: 1.0.4
   Author: RS Publishing
   Author URI: http://www.securiilock.com
@@ -30,7 +30,6 @@
 
 if(is_admin()) {
 	add_action('admin_menu', 'constr_menu');
-	add_action('admin_init', 'regis_options'); 
 }
 
 function constr_menu() {

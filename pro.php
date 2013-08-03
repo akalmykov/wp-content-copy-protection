@@ -7,7 +7,7 @@
 			Admin can exclude specific pages from being copy protected (all mouse and keyboard functions)</br></br>
 			Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)<br></br>
 			Upgraded Javascript error message (includes instructions to enable)<br></br>
-			WPCCP is fully compatible with the latest WP versions (3.5 and 3.6 (Oscar))<br></br>
+			WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)<br></br>
 			WPCCP is fully compatible with all major browsers<br></br>
 		
 			Purchase Wordpress Content Copy Protection PRO Here for 6 Dollars only !<br></br>
