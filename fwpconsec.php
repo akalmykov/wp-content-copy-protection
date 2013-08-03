@@ -40,12 +40,11 @@ function return_settings() {
 	require_once('pro.php');
 }
 
-
 add_action('wp_head',   'fwpcon_pro');
 
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() { 
+function fwpcon_pro() {
 
 ?>
 
@@ -57,8 +56,8 @@ function fwpcon_pro() {
 </noscript></div>
 
 <script type="text/javascript">
-function mousedwn(e) { 
-try { if (event.button == 2||event.button == 3) return false; }  
+function mousedwn(e) {
+try { if (event.button == 2||event.button == 3) return false; }
 catch (e) { if (e.which == 3) return false; }
 
 }
@@ -66,7 +65,6 @@ catch (e) { if (e.which == 3) return false; }
 	document.ondragstart   = function() { return false; }
 	document.onmousedown   = mousedwn;
 	</script>
-
 
 <script language="JavaScript" type="text/javascript">
 if (top.location != self.location) top.location.replace(self.location);
@@ -87,7 +85,7 @@ document.ondragstart = function(){return false;};
 
   img {
 	    -webkit-touch-callout: none;
-	    -webkit-user-select: none;		
+	    -webkit-user-select: none;
     }
 		</style>
 
