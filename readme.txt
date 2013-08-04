@@ -126,3 +126,4 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * Changed readme.txt and corrected typo errors
 * Removed included screenshots
 * General housekeeping
+* Fixed callback bug in code
