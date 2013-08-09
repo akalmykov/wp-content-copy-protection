@@ -64,7 +64,7 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 = Version 1.0.4.1 = 
 
-* fixed callback bug in code
+* fixed callback error in code
 * fixed bug in mobile hold/copy function
 * changed settings page
 * edited readme.txt
