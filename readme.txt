@@ -4,8 +4,8 @@ Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
 Requires at least: 3.0
-Tested up to:      3.5
-Stable tag:        1.0.4
+Tested up to:      3.6
+Stable tag:        1.0.4.1
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,9 @@ PRO Version included features :
 
 * Admin can exclude specific pages from being copy protected (all protection functions)
 * Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
+* Added image protection (automatically layers all uplaoded images with a blank image). This means that even if the system is bypassed (Javascript disabled) and the user does manage to copy/save your images .. all images saves to his desktop will be blank !! Whether Javascript is turned ON or OFF , image theft is almost impossible with this plugin !
+* Added text copy protection (automatically adds a silent Copyright notice to all posts in your site). This means that even if the system is bypassed (Javascript disabled) and the user does manage to copy/save any text from your site .. all copied content will include a silent Copyright notice back to your site (original author).
+* Mozilla Firefox (updated v 23.0) removes ability for a user to disable Javascript ! Javascript is permanently turned on in this version (unless a user reverts back to a previous version). Chrome and IE remains the same in user control.
 * WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)
 * WPCCP is fully compatible with all major browsers
 
@@ -61,14 +64,12 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.4 = 
+= Version 1.0.4.1 = 
 
-* added settings page (pro version)
-* Cleared ctrl + f5 (hard refresh) issue - no longer conflicts with other ctrl key functions
-* Cleared bug that caused dropdown and user input issues
-* Changed readme.txt and corrected typo errors
-* Removed included screenshots
-* General housekeeping
+* fixed callback bug in code
+* fixed bug in mobile hold/copy function
+* changed settings page
+* edited readme.txt
 
 == Screenshots ==
 
@@ -126,4 +127,9 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * Changed readme.txt and corrected typo errors
 * Removed included screenshots
 * General housekeeping
-* Fixed callback bug in code
+
+= 1.0.4.1 =
+* fixed callback bug in code
+* fixed bug in mobile hold/copy function
+* changed settings page
+* edited readme.txt
