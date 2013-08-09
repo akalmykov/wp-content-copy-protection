@@ -35,9 +35,7 @@ PRO Version included features :
 
 * Admin can exclude specific pages from being copy protected (all protection functions)
 * Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
-* Added image protection (automatically layers all uplaoded images with a blank image). This means that even if the system is bypassed (Javascript disabled) and the user does manage to copy/save your images .. all images saves to his desktop will be blank !! Whether Javascript is turned ON or OFF , image theft is almost impossible with this plugin !
-* Added text copy protection (automatically adds a silent Copyright notice to all posts in your site). This means that even if the system is bypassed (Javascript disabled) and the user does manage to copy/save any text from your site .. all copied content will include a silent Copyright notice back to your site (original author).
-* Mozilla Firefox (updated v 23.0) removes ability for a user to disable Javascript ! Javascript is permanently turned on in this version (unless a user reverts back to a previous version). Chrome and IE remains the same in user control.
+* Added advanced image protection
 * WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)
 * WPCCP is fully compatible with all major browsers
 
