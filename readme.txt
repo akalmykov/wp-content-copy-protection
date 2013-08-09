@@ -132,7 +132,7 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * General housekeeping
 
 = 1.0.4.1 =
-* fixed callback bug in code
+* fixed callback error
 * fixed bug in mobile hold/copy function
 * changed settings page
 * edited readme.txt
