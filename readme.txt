@@ -39,6 +39,11 @@ PRO Version included features :
 * WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)
 * WPCCP is fully compatible with all major browsers
 
+NOTICE
+
+Mozilla Firefox (v 23.0) now removes the users ability to disable Javascript ! Javascript is permanently turned on in this version (unless a user reverts back to a previous version). Chrome and Explorer remains the same in user control.
+
+
 
 Wordpress Content Copy Protection PRO can be found [Here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59BWFE8ZNREBL)
 
