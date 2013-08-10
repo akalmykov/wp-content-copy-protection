@@ -2,7 +2,7 @@
 
 Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
-Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu
+Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu, image theft, image protection, image protect, mobile, photo protection, security, secure
 Requires at least: 3.0
 Tested up to:      3.6
 Stable tag:        1.0.4.1
@@ -17,8 +17,6 @@ The WP Content Copy Protection plugin uses multiple techniques in copy-protectin
 WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, and keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
-
-Wordpress Content Copy Protection PRO is now available !
 
 Features
 
