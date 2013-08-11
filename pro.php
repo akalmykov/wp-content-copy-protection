@@ -14,15 +14,9 @@
 
 			See our upgraded version in action HERE : <a href="http://www.securiilock.com/tester-page/">TESTER PAGE</a><br></br>
 		
-			Purchase Wordpress Content Copy Protection PRO Here for 10 Dollars only !<br></br>
+			Purchase Wordpress Content Copy Protection PRO Here for 10 Dollars only : <a href="http://www.securiilock.com/">PURCHASE</a><br></br>
 			
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="59BWFE8ZNREBL">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form> <div style="font-family: Tahoma; font-size: 13px;"><div align = "right">Developed by R S Publishing | support@securiilock.com
+<div align = "right">Developed by R S Publishing | support@securiilock.com
 
 </div>
 
