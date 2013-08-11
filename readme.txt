@@ -33,7 +33,7 @@ PRO Version included features :
 
 * Admin can exclude specific pages from being copy protected (all protection functions)
 * Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
-* Advanced image protection now makes it nearly impossible to steal images (Pc and mobile)
+* Advanced image protection now makes it nearly impossible to steal images
 * WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)
 * WPCCP is fully compatible with all major browsers
 
@@ -43,7 +43,7 @@ Mozilla Firefox (v 23.0) now removes the users ability to disable Javascript ! J
 
 
 
-Wordpress Content Copy Protection PRO can be found [Here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59BWFE8ZNREBL)
+Wordpress Content Copy Protection PRO can be found [Here](http://www.securiilock.com/)
 
 == This Plugin will NOT ==
 
