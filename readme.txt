@@ -134,3 +134,4 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * fixed bug in mobile hold/copy function
 * changed settings page
 * edited readme.txt
+* added a tester area link in pro.php

@@ -6,12 +6,13 @@
 			<div style="font-family: Tahoma; font-size: 14px; background-color:#ffffff; border: 1pt solid Black; padding: 10pt;"><font color ="ff0000">You are currently using the Basic (Free) version of Wordpress Content Copy Protection. The following features are included with the PRO version :</font><br></br>
 			Admin can exclude specific pages from being copy protected</br></br>
 			Admin can disable/enable copy protection for registered and logged in users<br></br>
-			Added image security (nearly impossible for users to steal your images - ideal for photography sites)<br></br>
+			Added image security (nearly impossible for users to steal your images)<br></br>
 			Upgraded Javascript error message (includes instructions to enable)<br></br>
 			WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)<br></br>
 			WPCCP is fully compatible with all major browsers<br></br>
 			Works on PC and mobile devices (text and image protection)<br></br>
-			System bypass precautions<br></br>
+
+			See our upgraded version in action HERE : <a href="http://www.securiilock.com/tester-page/">TESTER PAGE</a><br></br>
 		
 			Purchase Wordpress Content Copy Protection PRO Here for 10 Dollars only !<br></br>
 			
