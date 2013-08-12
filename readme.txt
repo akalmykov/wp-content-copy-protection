@@ -2,10 +2,10 @@
 
 Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
-Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu, image theft, image protection, image protect, mobile, photo protection, security, secure
+Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu, image theft, image protection, image protect, mobile, photo protection, security, secure, context
 Requires at least: 3.0
 Tested up to:      3.6
-Stable tag:        1.0.4.1
+Stable tag:        1.0.4.2
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ PRO Version included features :
 * Admin can exclude specific pages from being copy protected (all protection functions)
 * Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
 * Advanced image protection now makes it nearly impossible to steal images
-* WPCCP is fully compatible with the latest WP versions (3.5 and 3.6)
+* WPCCP is fully compatible with the latest WP versions
 * WPCCP is fully compatible with all major browsers
 
 NOTICE
@@ -65,12 +65,12 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.4.1 = 
+= Version 1.0.4.2 = 
 
-* fixed callback error in code
-* fixed bug in mobile hold/copy function
-* changed settings page
+* fixed user input bug (for Chrome browsers)
+* changed settings page and added notice
 * edited readme.txt
+* general housekeeping
 
 == Screenshots ==
 
@@ -134,4 +134,12 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * fixed bug in mobile hold/copy function
 * changed settings page
 * edited readme.txt
-* added a tester area link in pro.php
+* added tester area links in pro.php
+* fixed user input bug for Chrome browsers
+* added notice to plugin settings page
+
+= 1.0.4.2 =
+* fixed user input bug (for Chrome browsers)
+* changed settings page and added notice
+* edited readme.txt
+* general housekeeping
