@@ -35,8 +35,8 @@ Features
 PRO Version included features :
 
 * Admin can exclude specific pages from being copy protected (all protection functions)
-* Admin can disable/enable copy protection for registered and logged in users (non-registered users are still blocked)
-* Advanced image protection now makes it nearly impossible to steal images
+* Admin can disable copy protection for logged in/registered users
+* Advanced image protection (nearly impossible for a user to steal your images)
 * WPCCP is fully compatible with the latest WP versions
 * WPCCP is fully compatible with all major browsers
 
