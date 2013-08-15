@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu, image theft, image protection, image protect, mobile, photo protection, security, secure, context
 Requires at least: 3.0
 Tested up to:      3.6
-Stable tag:        1.0.4.2
+Stable tag:        1.0.4.2b
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,9 @@ The WP Content Copy Protection plugin uses multiple techniques in copy-protectin
 WP Content Copy Protection is a simple plugin that uses multiple techniques in copy-protecting your blog content. Some of the most common copy methods, such as right click, image dragging, and keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
+
+See our PRO Version in action [HERE](http://www.securiilock.com/)
+
 
 Features
 
@@ -42,8 +45,8 @@ NOTICE
 Mozilla Firefox (v 23.0) now removes the users ability to disable Javascript ! Javascript is permanently turned on in this version (unless a user reverts back to a previous version). Chrome and Explorer remains the same in user control.
 
 
-
 Wordpress Content Copy Protection PRO can be found [Here](http://www.securiilock.com/)
+
 
 == This Plugin will NOT ==
 
@@ -65,11 +68,10 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.4.2 = 
+= Version 1.0.4.2b = 
 
-* fixed user input bug (for Chrome browsers)
-* changed settings page and added notice
-* edited readme.txt
+* fixed bug in mobile text selection function (hold to copy)
+* made changes to included pro page and fixed typo errors
 * general housekeeping
 
 == Screenshots ==
@@ -141,5 +143,12 @@ The text selection function was re-enabled simply to give users more "freedom" (
 = 1.0.4.2 =
 * fixed user input bug (for Chrome browsers)
 * changed settings page and added notice
+* fixed bug in mobile text select function
 * edited readme.txt
 * general housekeeping
+
+= 1.0.4.2b = 
+
+* fixed bug in mobile text selection function (hold to copy)
+* made changes to included pro page and fixed typo errors
+* made changes to readme file
