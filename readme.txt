@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu, image theft, image protection, image protect, mobile, photo protection, security, secure, context
 Requires at least: 3.0
 Tested up to:      3.6
-Stable tag:        1.0.4.2b
+Stable tag:        1.0.5
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,11 +68,9 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.4.2b = 
+= Version 1.0.5= 
 
-* fixed bug in mobile text selection function (hold to copy)
-* made changes to included pro page and fixed typo errors
-* general housekeeping
+
 
 == Screenshots ==
 
@@ -99,10 +97,6 @@ This function was removed mainly due to the fact that it could scare away your w
 = Does your Plugin work on all major Browsers? =
 
 This plugin works on all major browsers. The full functionality (features) of this plugin was tested on the latest versions of IE (Internet Explorer), Mozilla FF, and Chrome without any problems.
-
-= Why did you Decide to Re-enable Text Selection ? =
-
-The text selection function was re-enabled simply to give users more "freedom" (knowing that even with text selection - they are still unable to actually copy any selected text). This way, the users are also LESS aware of the actual protection running in the backend (in hope of decreasing bounce rate). 
 
 == Changelog ==
 
@@ -147,7 +141,7 @@ The text selection function was re-enabled simply to give users more "freedom" (
 * edited readme.txt
 * general housekeeping
 
-= 1.0.4.2b = 
+= 1.0.5 = 
 
 * fixed bug in mobile text selection function (hold to copy)
 * made changes to included pro page and fixed typo errors
