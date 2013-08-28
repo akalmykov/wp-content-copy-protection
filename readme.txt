@@ -2,10 +2,10 @@
 
 Contributors:      RS Publishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
-Tags:              protection, copyright, prevent, content, protect, copy, no right click, disable, images, text, plagiarism, source, code, steal, theft, context menu, image theft, image protection, image protect, mobile, photo protection, security, secure, context
+Tags:              protection, copyright, protect, no right click, plagiarism, image theft, image protection, image protect, photo protection, security, copy protection
 Requires at least: 3.0
 Tested up to:      3.6
-Stable tag:        1.0.5
+Stable tag:        1.0.5.1
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,7 +68,7 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.5= 
+= Version 1.0.5.1= 
 
 
 
@@ -146,3 +146,12 @@ This plugin works on all major browsers. The full functionality (features) of th
 * fixed bug in mobile text selection function (hold to copy)
 * made changes to included pro page and fixed typo errors
 * made changes to readme file
+
+= 1.0.5.1 =
+
+* changed settings page (added new text, removed some text, fixed typo error)
+* renamed pro.php page to settings.php (modified the fwpconsec.php accordingly)
+* added license URI to fwpconsec.php file header
+* decreased tag count in readme.txt file (best practice)
+* changed plugin description in fwpconsec.php file header
+* general housekeeping and cleaning

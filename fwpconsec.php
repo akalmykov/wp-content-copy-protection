@@ -3,15 +3,16 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://wordpress.org/plugins/wp-content-copy-protection/
-  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable blog content (such as source code, text content, and images) from being copied by others. Our PRO version includes advanced image protection ! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a>
-  Version: 1.0.5
+  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable content (such as source code, text content, and images) from being copied by others. Our PRO version includes advanced image protection ! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection !
+  Version: 1.0.5.1
   Author: RS Publishing
   Author URI: http://wordpress.org/plugins/wp-content-copy-protection/
-  License: GPL2
+  License: GPLv2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
 /*
-  Copyright 2012/13  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
+  Copyright 2013  Rynaldo Stoltz  (email : rcstoltz@gmail.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -37,16 +38,13 @@ function constr_menu() {
 }
 
 function return_settings() {
-	require_once('pro.php');
+	require_once('settings.php');
 }
 
-add_action('wp_head',   'fwpcon_pro');
-
+add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() {
-
-?>
+function fwpcon_pro() { ?>
 
 <!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Starts -->
 
@@ -59,25 +57,23 @@ function fwpcon_pro() {
 function mousedwn(e) {
 try { if (event.button == 2||event.button == 3) return false; }
 catch (e) { if (e.which == 3) return false; }
-
 }
 	document.oncontextmenu = function() { return false; }
 	document.ondragstart   = function() { return false; }
 	document.onmousedown   = mousedwn;
-	</script>
+</script>
 
 <script language="JavaScript" type="text/javascript">
 if (top.location != self.location) top.location.replace(self.location);
 </script>
 
-<meta http-equiv="imagetoolbar" content="no">
-
 <script type="text/javascript">
 document.ondragstart = function(){return false;};
 </script>
 
-<style type="text/css">
+<meta http-equiv="imagetoolbar" content="no">
 
+<style type="text/css">
 * : (input, textarea) {
 
     -webkit-touch-callout: none;
@@ -88,7 +84,7 @@ img {
 	    -webkit-touch-callout: none;
 	    -webkit-user-select: none;		
     }
-		</style>
+</style>
 
 	<script type='text/javascript'>
 window.addEventListener("keydown",function (e) {
@@ -104,12 +100,6 @@ window.addEventListener("keydown",function (e) {
 </script>
 
 <!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Ends -->
-
-
-
-
-
-
 
 
 
