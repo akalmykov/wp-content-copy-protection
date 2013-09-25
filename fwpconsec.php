@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://wordpress.org/plugins/wp-content-copy-protection/
   Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable content (such as source code, text content, and images) from being copied by others. Our PRO version includes advanced image protection ! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection !
-  Version: 1.0.5.1
+  Version: 1.0.5.2
   Author: RS Publishing
   Author URI: http://wordpress.org/plugins/wp-content-copy-protection/
   License: GPLv2 or later
@@ -50,7 +50,7 @@ function fwpcon_pro() { ?>
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
-   <div style="font-family: Tahoma; font-size: 14px; background-color:#FFF000">To see this page as it is meant to appear, we ask that you please enable your Javascript!</div></div>
+   <div style="font-family: Tahoma; font-size: 14px; background-color:#FFF000; padding: 10pt;">To see this page as it is meant to appear, we ask that you please enable your Javascript!</div></div>
 </noscript></div>
 
 <script type="text/javascript">
@@ -63,15 +63,13 @@ catch (e) { if (e.which == 3) return false; }
 	document.onmousedown   = mousedwn;
 </script>
 
-<script language="JavaScript" type="text/javascript">
+<script type="text/javascript">
 if (top.location != self.location) top.location.replace(self.location);
 </script>
 
 <script type="text/javascript">
 document.ondragstart = function(){return false;};
 </script>
-
-<meta http-equiv="imagetoolbar" content="no">
 
 <style type="text/css">
 * : (input, textarea) {
@@ -100,10 +98,6 @@ window.addEventListener("keydown",function (e) {
 </script>
 
 <!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Ends -->
-
-
-
-
 
 
 

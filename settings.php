@@ -18,7 +18,7 @@
 
 			<font color ="ff0000">Upgrade Notice</font> : Please make sure that you deactivate AND delete the old version BEFORE installing the extended version. Thank You !<br></br>
 			
-<div align = "right">Developed by R S Publishing | support@securiilock.com
+<div align = "right">Developed by R S Publishing | Support: support@securiilock.com
 
 </div>
 

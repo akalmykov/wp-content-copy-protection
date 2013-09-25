@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, protect, no right click, plagiarism, image theft, image protection, image protect, photo protection, security, copy protection
 Requires at least: 3.0
 Tested up to:      3.6
-Stable tag:        1.0.5.1
+Stable tag:        1.0.5.2
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,10 +40,6 @@ PRO Version included features :
 * WPCCP is fully compatible with the latest WP versions
 * WPCCP is fully compatible with all major browsers
 
-NOTICE
-
-Mozilla Firefox (v 23.0) now removes the users ability to disable Javascript ! Javascript is permanently turned on in this version (unless a user reverts back to a previous version). Chrome and Explorer remains the same in user control.
-
 
 Wordpress Content Copy Protection PRO can be found [Here](http://www.securiilock.com/)
 
@@ -59,7 +55,7 @@ Wordpress Content Copy Protection PRO can be found [Here](http://www.securiilock
 1. Download the .zip file
 2. Upload and extract the contents of WP Content-Copy-Protection.zip to your wp-content/plugins/folder
 3. Activate the Full-WP-Content-Security plugin in your WP-admin / Plugins
-4. Enjoy our content protection
+
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
@@ -68,8 +64,7 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy P
 
 == Upgrade Notice ==
 
-= Version 1.0.5.1= 
-
+= Version 1.0.5.2= 
 
 
 == Screenshots ==
@@ -155,3 +150,11 @@ This plugin works on all major browsers. The full functionality (features) of th
 * decreased tag count in readme.txt file (best practice)
 * changed plugin description in fwpconsec.php file header
 * general housekeeping and cleaning
+
+= 1.0.5.2 =
+
+* removed imagetoolbar meta from code due to conflict with head content
+* removed deprecated code and replaced with correct syntax
+* added padding to JS error message
+* modified readme file
+* general housekeeping
