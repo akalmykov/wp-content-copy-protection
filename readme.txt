@@ -1,15 +1,15 @@
 === WP Content Copy Protection ===
 
 Contributors:      RS Publishing
-Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M986BXMFAH4KJ      
+Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, protect, no right click, plagiarism, image theft, image protection, image protect, photo protection, security, copy protection
 Requires at least: 3.0
-Tested up to:      3.6
-Stable tag:        1.0.5.2
+Tested up to:      3.7.1
+Stable tag:        1.0.6
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your blog content.
+The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your valuable blog content !
 
 
 == Description ==
@@ -18,7 +18,7 @@ WP Content Copy Protection is a simple plugin that uses multiple techniques in c
 
 While this will most certainly help copy-protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
-See our PRO Version in action [HERE](http://www.securiilock.com/)
+See our Pro Version in action [HERE](http://www.securiilock.com/)
 
 
 Features
@@ -28,26 +28,26 @@ Features
 * Disables image drag and drop function
 * Disables 'Hold to Copy' function on most mobile devices
 * Displays a client-side error message when Javascript is disabled
-* Serves blank pages when JS is turned off in user browser (user is forced to enable JS)
+* Serves blank pages when JS is disabled in user browser (user is forced to enable JS)
 * Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view source
-* The image link URL is automatically removed and defaulted to the none setting in your image uploads (deters image theft)
+* The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (deters image theft)
 
-PRO Version included features :
+Our Pro Version includes :
 
-* Admin can exclude specific pages from being copy protected (all protection functions)
+* Admin can exclude specific pages from being copy protected (global functions)
 * Admin can disable copy protection for logged in/registered users
-* Advanced image protection (nearly impossible for a user to steal your images)
+* Advanced image protection (makes it nearly impossible for a user to steal your images)
 * WPCCP is fully compatible with the latest WP versions
 * WPCCP is fully compatible with all major browsers
 
 
-Wordpress Content Copy Protection PRO can be found [Here](http://www.securiilock.com/)
+Wordpress Content Copy Protection Pro can be found [Here](http://www.securiilock.com/)
 
 
 == This Plugin will NOT ==
 
 1. Have any negative impact on your SEO
-2. Have any negative effect on your Advertising (such as Adsense) : Ad codes are NOT affected by this plugin in any way !
+2. Have any negative effect on your Advertising (such as Adsense) : Embed codes are NOT affected by this plugin in any way !
 
 
 == Installation ==
@@ -56,16 +56,13 @@ Wordpress Content Copy Protection PRO can be found [Here](http://www.securiilock
 2. Upload and extract the contents of WP Content-Copy-Protection.zip to your wp-content/plugins/folder
 3. Activate the Full-WP-Content-Security plugin in your WP-admin / Plugins
 
-
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
 Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy Protection
 
-
 == Upgrade Notice ==
 
-= Version 1.0.5.2= 
-
+= Version 1.0.6 = 
 
 == Screenshots ==
 
@@ -75,19 +72,19 @@ none
 
 = Will WP Content Copy Protection Plugin have a negative impact on my SEO? =
 
-No! This plugin will only affect the user's browser (attempting to copy your content) and will have NO negative impact on your SEO.
+No! This plugin will only affect the user's browser (attempting to copy your content) and will have absolutely no negative impact on your SEO.
 
 = Will this plugin disable the features from the site administrator also? =
 
-Yes ! However, our PRO version allows the admin to enable/disable copy protect functions for registered and logged in users
+Yes! However, our Pro version allows the blog administrator to enable/disable copy protect functions for registered and logged in users (globally)
 
 = Will your WP Content Copy Protection Plugin affect my Advertising (Adsense)? =
 
-Absolutely not! Although this plugin locks your content and prevents it from being copied by anyone else, your advertising blocks will remain UN-touched and UN-affected. These blocks will function without any trouble, and will work with Adsense, Chitika, as well as most other advertising programs.
+Absolutely not! Although this plugin locks your content and prevents it from being copied by anyone else, your advertising units will remain unaffected as the code doesn't alter any embeddable code or the functioning thereof.
 
 = Why Did you Exclude The 'alert-message' (Popup) Function? =
 
-This function was removed mainly due to the fact that it could scare away your website visitors - cause a higher bounce rate - and essentially defame your website.
+This function was removed simply becasue it could scare away your website visitors - cause a higher bounce rate - and essentially defame your website. We like to be 'silent' !
 
 = Does your Plugin work on all major Browsers? =
 
@@ -158,3 +155,13 @@ This plugin works on all major browsers. The full functionality (features) of th
 * added padding to JS error message
 * modified readme file
 * general housekeeping
+
+= 1.0.6 =
+
+* re-enabled text selection as users could bypass mouse/keyboard copy on selected text by using the browser copy function (text select disabled = nothing to copy even from browser copy option)
+* reconstructed and upgraded settings page
+* added donation link (settings file)
+* general housekeeping and code cleanup
+* upgraded from v1.0.5.2 - v1.0.6
+* updated and tested compatibility with WP v3.7.1
+* updated readme.txt file

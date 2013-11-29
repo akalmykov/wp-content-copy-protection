@@ -2,11 +2,11 @@
 
 /*
   Plugin Name: WP Content Copy Protection
-  Plugin URI: http://wordpress.org/plugins/wp-content-copy-protection/
+  Plugin URI: http://securiilock.com
   Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable content (such as source code, text content, and images) from being copied by others. Our PRO version includes advanced image protection ! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection !
-  Version: 1.0.5.2
+  Version: 1.0.6
   Author: RS Publishing
-  Author URI: http://wordpress.org/plugins/wp-content-copy-protection/
+  Author URI: http://securiilock.com
   License: GPLv2 or later
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -54,6 +54,22 @@ function fwpcon_pro() { ?>
 </noscript></div>
 
 <script type="text/javascript">
+window.onload = function() {
+	disableSelection(document.body)
+}
+ 
+function disableSelection(target){
+if (typeof target.onselectstart!="undefined")
+	target.onselectstart=function(){return false}
+else if (typeof target.style.MozUserSelect!="undefined")
+	target.style.MozUserSelect="none"
+else 
+	target.onmousedown=function(){return false}
+target.style.cursor = "default"
+}
+</script>
+
+<script type="text/javascript">
 function mousedwn(e) {
 try { if (event.button == 2||event.button == 3) return false; }
 catch (e) { if (e.which == 3) return false; }
@@ -76,6 +92,7 @@ document.ondragstart = function(){return false;};
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
+
 }
 
 img {
@@ -98,6 +115,9 @@ window.addEventListener("keydown",function (e) {
 </script>
 
 <!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Ends -->
+
+
+
 
 
 

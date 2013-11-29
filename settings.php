@@ -1,25 +1,37 @@
 <div class="wrap">
         <h2><?php _e('WP Content Copy Protection Settings', 'wpcp'); ?></h2><br><br>
 
-	                <table class="widefat" style="width: 700px;" cellpadding="7">
+	                <div class="postbox" style="width: 900px;" cellpadding="6">
+					
+	<div class="inside">
+	<style type="text/css">
+	.inside {
+	font-family: Arial;
+		}
+	</style>
 
-			<div style="font-family: Tahoma; font-size: 14px; background-color:#ffffff; border: 1pt solid Black; padding: 10pt;"><font color ="ff0000">You are currently using the Basic (Free) version of Wordpress Content Copy Protection. The following features are included with our advanced version :</font><br></br>
-			Choose to exclude specific pages from being copy protected</br></br>
-			Choose to disable copy protection for logged in/registered users<br></br>
-			Advanced image protection (makes is near impossible for anyone to steal your images)<br></br>
-			Upgraded Javascript error message (includes instructions with link to enable)<br></br>
-			Works on PC and mobile devices (text and image protection)<br></br>
+			<font color ="ff0000">YOU ARE CURRENTLY USING THE BASIC (FREE) VERSION OF WPCCP ! THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO VERSION :</font><br></br>
+			Administrators can exclude specific pages from being copy protected (global functions)</br></br>
+			Administrators can disable copy protection for all logged in/registered users (globally)<br></br>
+			WPCCP Pro includes advanced image protection (makes is near impossible for anyone to steal your images)<br></br>
+			Upgraded Javascript error message (includes instructions to enable)<br></br>
+			Works on PC and mobile devices (global text and image protection)<br></br>
+			Fully compatible with all theme frameworks (also responsive)<br></br>
 			Fully compatible with all major browsers<br></br>			
-			Fully compatible with WP version 3.6<br></br>
-
-			See our upgraded image protection version in action <a href="http://www.securiilock.com/tester-page-2/">HERE</a> <br></br>
-		
-			WPCCP PRO is available directly from our website for $8 only : <a href="http://www.securiilock.com/">HERE</a><br></br>
-
-			<font color ="ff0000">Upgrade Notice</font> : Please make sure that you deactivate AND delete the old version BEFORE installing the extended version. Thank You !<br></br>
-			
-<div align = "right">Developed by R S Publishing | Support: support@securiilock.com
-
-</div>
-
-   </div>
+			Fully compatible with WP version 3.6 upwards<br></br>
+			<br></br>
+			<font color ="ff0000">SEE OUR PRO VERSION IN ACTION <a href="http://www.securiilock.com/tester-page-2/">HERE</a><br></br></font>
+			<font color ="ff0000">WPCCP PRO VERSION IS AVAILABLE DIRECTLY FROM OUR WEBSITE <a href="http://www.securiilock.com/">HERE</a><br></br></font>
+			<font color ="ff0000">NOT LOOKING FOR ALL THE BELLS AND WHISTLES ? HAVE A LOOK AT OUR PIC-DECOY PLUGIN <a href="http://www.securiilock.com/pic-decoy-wp-plugin/">HERE</a><br></br></font>
+			<br></br>
+			<font color ="ff0000">UPGRADE NOTICE</font> : Please make sure that you deactivate AND delete the old version BEFORE installing our Pro version. Thank You !<br></br><br></br>
+	Do you Like WP Content Copy Protection ? Please consider making a donation to help us maintain, update and keep our plugins alive ! <br></br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="HZWQXQCBC77ZY">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>	
+			</div>
+		</div>
+	</div>
