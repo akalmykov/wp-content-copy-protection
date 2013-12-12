@@ -14,7 +14,8 @@
 			Administrators can exclude specific pages from being copy protected (global functions)</br></br>
 			Administrators can disable copy protection for all logged in/registered users (globally)<br></br>
 			WPCCP Pro includes advanced image protection (makes is near impossible for anyone to steal your images)<br></br>
-			Upgraded Javascript error message (includes instructions to enable)<br></br>
+			Pro version includes RSS feed protection against content scrapers (scraping software) and autoblogs<br></br>
+			Upgraded Javascript error message (includes user instructions)<br></br>
 			Works on PC and mobile devices (global text and image protection)<br></br>
 			Fully compatible with all theme frameworks (also responsive)<br></br>
 			Fully compatible with all major browsers<br></br>			
