@@ -2,7 +2,7 @@
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
-Tags:              protection, copyright, protect, no right click, plagiarism, image theft, image protection, image protect, photo protection, security, copy protection
+Tags:              protection, copyright, theft, no right click, plagiarism, image theft, image protection, image protect, photo, security, copy protection, rss, feed protection
 Requires at least: 3.0
 Tested up to:      3.7.1
 Stable tag:        1.0.6.1
