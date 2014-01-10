@@ -4,8 +4,8 @@ Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, theft, no right click, plagiarism, image theft, image protection, image protect, photo, security, copy protection, rss, feed protection
 Requires at least: 3.0
-Tested up to:      3.7.1
-Stable tag:        1.0.6.1
+Tested up to:      3.8
+Stable tag:        1.0.6.2
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ WP Content Copy Protection is a simple plugin that uses multiple techniques in p
 
 While this will most certainly help protect your online content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
-See how our pro version can help [HERE](http://www.securiilock.com/)
+See how our pro version can help protect your content [HERE](http://www.securiilock.com/)
 
 
 Features
@@ -43,7 +43,7 @@ Our Pro Version includes :
 * WPCCP is fully compatible with all major browsers
 
 
-Wordpress Content Copy Protection Pro can be found [Here](http://www.securiilock.com/)
+WordPress Content Copy Protection Pro can be found [Here](http://www.securiilock.com/)
 
 
 == This Plugin will NOT ==
@@ -181,3 +181,10 @@ The pro version includes advanced image protection (making it near impossible fo
 * updated settings.php page
 * updated readme.txt file
 * general housekeeping
+
+= 1.0.6.2 =
+
+* tested compatibility with v3.8
+* changed version number
+* changed support email
+* corrected typo error

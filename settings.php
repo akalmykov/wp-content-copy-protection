@@ -17,9 +17,9 @@
 			Pro version includes RSS feed protection against content scrapers (scraping software) and autoblogs<br></br>
 			Upgraded Javascript error message (includes user instructions)<br></br>
 			Works on PC and mobile devices (global text and image protection)<br></br>
-			Fully compatible with all theme frameworks (also responsive)<br></br>
+			Fully compatible with all theme frameworks (includes responsive)<br></br>
 			Fully compatible with all major browsers<br></br>			
-			Fully compatible with WP version 3.6 upwards<br></br>
+			Fully compatible with WP version 3.8<br></br>
 			<br></br>
 			<font color ="ff0000">SEE OUR PRO VERSION IN ACTION <a href="http://www.securiilock.com/tester-page-2/">HERE</a><br></br></font>
 			<font color ="ff0000">WPCCP PRO VERSION IS AVAILABLE DIRECTLY FROM OUR WEBSITE <a href="http://www.securiilock.com/">HERE</a><br></br></font>
