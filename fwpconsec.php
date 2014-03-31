@@ -3,8 +3,8 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com
-  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable content (such as source code, text content, and images) from being copied by others. Our Pro version includes much more ! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection !
-  Version: 1.0.6.2
+  Description: WP Content Copy Protection prevents plagiarism and protects most of your valuable blog content (including source code|text|images) from being copied by others. Our Pro version includes much more! See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection.
+  Version: 1.0.6.03
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
@@ -46,7 +46,7 @@ update_option('image_default_link_type','none');
 
 function fwpcon_pro() { ?>
 
-<!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Starts -->
+<!-- WP Content Copy Protection script by Rynaldo Stoltz Starts -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
@@ -110,7 +110,8 @@ window.addEventListener("keydown",function (e) {
 				};
 </script>
 
-<!-- WP Content Copy Protection (Copyright Protection) script by Rynaldo Stoltz Ends -->
+<!-- WP Content Copy Protection script by Rynaldo Stoltz Ends -->
+
 
 
 
@@ -145,6 +146,5 @@ window.addEventListener("keydown",function (e) {
 
 
 <?php 
-
 } 
 ?>

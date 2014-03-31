@@ -2,26 +2,27 @@
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
-Tags:              protection, copyright, theft, no right click, plagiarism, image theft, image protection, image protect, photo, security, copy protection, rss, feed protection
+Tags:              protection, copyright, theft, no right click, plagiarism, image theft, image protection, image protect, photo, security, copy protection, protect
 Requires at least: 3.0
-Tested up to:      3.8
-Stable tag:        1.0.6.2
+Tested up to:      3.8.1
+Stable tag:        1.0.6.03
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your valuable blog content !
+The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your valuable blog content from being stolen!
 
 
 == Description ==
 
-WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your blog content from being copied illegaly. Some of the most common copy methods, such as right-click, image dragging, and keyboard copy shortcuts such as CTRL A, C, X, U, and P are disabled with this plugin. 
+WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your blog content from being copied illegally. Some of the most common copy methods, such as right-click, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
 While this will most certainly help protect your online content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
-See how our pro version can help protect your content [HERE](http://www.securiilock.com/)
+See how our pro version can help protect your content. Demo [HERE](http://www.securiilock.com/)
 
+PLEASE NOTE: This plugin is not meant for Mac based OS!!
 
-Features
+Basic Features:
 
 * iFrame Protection
 * Disables right click function on mouse
@@ -32,39 +33,39 @@ Features
 * Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view source
 * The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (deters image theft)
 
-Our Pro Version includes :
+Pro Version Features include:
 
-* Admin can exclude specific pages from being copy protected (global functions)
-* Admin can disable copy protection for logged in/registered users
-* Advanced image protection (makes it nearly impossible for a user to steal your images)
-* RSS feed protection against content scrapers (scraping software) and autoblogs
+* Admin can exclude specific pages from being copy protected (globally)
+* Admin can disable copy protection for logged in/registered users (globally)
+* Advanced image protection (makes it near impossible for a user to steal your images)
+* RSS feed protection against content scrapers (scraping software), and autoblogs
 * WPCCP is fully compatible with all major theme frameworks
-* WPCCP is fully compatible with the latest WP versions
 * WPCCP is fully compatible with all major browsers
 
 
-WordPress Content Copy Protection Pro can be found [Here](http://www.securiilock.com/)
+See WP Content Copy Protection Pro demo [Here](http://www.securiilock.com/)
 
 
 == This Plugin will NOT ==
 
-1. Have any negative impact on your SEO
-2. Have any negative effect on your Advertising (such as Adsense) : Embed codes are NOT affected by this plugin in any way !
+1. Have any negative impact on your SEO.
+2. Have any negative effect on your Advertising (such as Adsense) : Embed codes are NOT affected by this plugin in any way.
 
 
 == Installation ==
 
 1. Download the .zip file
-2. Upload and extract the contents of WP Content-Copy-Protection.zip to your wp-content/plugins/folder
+2. Upload and extract the contents of the zip file to your wp-content/plugins/folder
 3. Activate the Full-WP-Content-Security plugin in your WP-admin / Plugins
+4. Enjoy!
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
-Just post a mail to: support@securiilock.com / Email Subject : WP Content Copy Protection
+Just email us at: support@securiilock.com / Email Subject : WP Content Copy Protection
 
 == Upgrade Notice ==
 
-= Version 1.0.6 = 
+= Version 1.0.6.03 = 
 
 == Screenshots ==
 
@@ -74,27 +75,27 @@ none
 
 = Will WP Content Copy Protection Plugin have a negative impact on my SEO? =
 
-No! This plugin will only affect the user's browser (attempting to copy your content) and will have absolutely no negative impact on your SEO.
+Absolutely not! This plugin will only affect the user's browser (attempting to copy your content) and will have absolutely no negative impact on your SEO.
 
 = Will this plugin disable the features from the site administrator also? =
 
 Yes! However, our Pro version allows the blog administrator to enable/disable copy protect functions for registered and logged in users (globally)
 
-= Will your WP Content Copy Protection Plugin affect my Advertising (Adsense)? =
+= Will your WP Content Copy Protection Plugin affect my Advertising Units (Adsense)? =
 
 Absolutely not! Although this plugin locks your content and prevents it from being copied by anyone else, your advertising units will remain unaffected as the code doesn't alter any embeddable code or the functioning thereof.
 
-= Why Did you Exclude The 'alert-message' (Popup) Function? =
+= Why Did you Exclude The alert-message (Popup), Function? =
 
-This function was removed simply becasue it could scare away your website visitors - cause a higher bounce rate - and essentially defame your website. We like to be 'silent' !
+This function was removed simply because it could scare away your website visitors - cause a higher bounce rate - and essentially defame your website. We like to be 'silent'!
 
 = Does your Plugin work on all major Browsers? =
 
-This plugin works on all major browsers. The full functionality (features) of this plugin was tested on the latest versions of IE (Internet Explorer), Mozilla FF, and Chrome without any problems. Our plugin is also compatible with all majot theme frameworks.
+This plugin works on all major browsers. The full functionality (features) was tested on the latest versions of IE (Internet Explorer), Mozilla FF, and Chrome without any problems. Our plugin is also compatible with all major theme frameworks.
 
 = What is the difference between the free version and the pro version? =
 
-The pro version includes advanced image protection (making it near impossible for a user to copy/steal your images), RSS feed protection against content scraping software/autoblogs and backend admin switches.
+The pro version includes advanced image protection (making it near impossible for a user to copy/steal your images), RSS feed protection against content scraping software/autoblogs and, backend admin switches.
 
 
 == Changelog ==
@@ -188,3 +189,9 @@ The pro version includes advanced image protection (making it near impossible fo
 * changed version number
 * changed support email
 * corrected typo error
+
+= 1.0.6.03 =
+
+* general housekeeping
+* fixed typos in readme.txt
+* updated settings.php page
