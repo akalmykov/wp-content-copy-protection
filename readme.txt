@@ -35,11 +35,11 @@ Pro Version Features include:
 * WPCCP is fully compatible with all major theme frameworks
 * WPCCP is fully compatible with all major browsers
 
+See WP Content Copy Protection Pro [Here](http://www.securiilock.com/)
+
 While this will most certainly help protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
 PLEASE NOTE: This plugin is not meant for Mac based OS!!
-
-See WP Content Copy Protection Pro demo [Here](http://www.securiilock.com/)
 
 == This Plugin will NOT ==
 
