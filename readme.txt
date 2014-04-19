@@ -2,49 +2,44 @@
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
-Tags:              protection, copyright, theft, no right click, plagiarism, image theft, image protection, image protect, photo, security, copy protection, protect
+Tags:              protection, copyright, theft, no right click, plagiarism, content protection, image protection, image protect, photo, security, copy protection, secure
 Requires at least: 3.0
-Tested up to:      3.8.1
-Stable tag:        1.0.6.03
+Tested up to:      3.9
+Stable tag:        1.0.7
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in copy-protecting your valuable blog content from being stolen!
-
+The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable blog content from being stolen.
 
 == Description ==
 
 WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your blog content from being copied illegally. Some of the most common copy methods, such as right-click, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
-While this will most certainly help protect your online content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
-
-See how our pro version can help protect your content. Demo [HERE](http://www.securiilock.com/)
-
-PLEASE NOTE: This plugin is not meant for Mac based OS!!
-
 Basic Features:
 
 * iFrame Protection
 * Disables right click function on mouse
-* Disables image drag and drop function
+* Disables image drag and drop functionality
 * Disables 'Hold to Copy' function on most mobile devices
-* Displays a client-side error message when Javascript is disabled
-* Serves blank pages when JS is disabled in user browser (user is forced to enable JS)
-* Disables keyboard copy commands (CTRL A, C, X, U, P) copy/paste/print/view source
+* Displays a client-side error message when Javascript is disabled in user's browser
+* Serves blank pages when JS is disabled in user's browser (user is forced to enable JS)
+* Disables keyboard copy commands (CTRL A, C, X, U, P) select all|copy|paste|print|view source
 * The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (deters image theft)
 
 Pro Version Features include:
 
 * Admin can exclude specific pages from being copy protected (globally)
 * Admin can disable copy protection for logged in/registered users (globally)
-* Advanced image protection (makes it near impossible for a user to steal your images)
-* RSS feed protection against content scrapers (scraping software), and autoblogs
+* Aggressive image protection (makes it near impossible for users to steal your pictures)
+* RSS feed protection against content scraping software and autoblogs
 * WPCCP is fully compatible with all major theme frameworks
 * WPCCP is fully compatible with all major browsers
 
+While this will most certainly help protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
+
+PLEASE NOTE: This plugin is not meant for Mac based OS!!
 
 See WP Content Copy Protection Pro demo [Here](http://www.securiilock.com/)
-
 
 == This Plugin will NOT ==
 
@@ -195,3 +190,10 @@ The pro version includes advanced image protection (making it near impossible fo
 * general housekeeping
 * fixed typos in readme.txt
 * updated settings.php page
+
+= 1.0.7 =
+
+* updated compatibility (tested up to 3.9)
+* changes in readme.txt
+* changes in settings.php
+* changes in fwpconsec.php
