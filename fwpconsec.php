@@ -3,8 +3,8 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com
-  Description: WP Content Copy Protection prevents plagiarism and protects your valuable blog content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection.
-  Version: 1.0.7
+  Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection.
+  Version: 1.0.8
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
@@ -57,13 +57,13 @@ function fwpcon_pro() { ?>
 window.onload = function() {
 	disableSelection(document.body)
 }
- 
+
 function disableSelection(target){
 if (typeof target.onselectstart!="undefined")
 	target.onselectstart=function(){return false}
 else if (typeof target.style.MozUserSelect!="undefined")
 	target.style.MozUserSelect="none"
-else 
+else
 	target.onmousedown=function(){return false}
 target.style.cursor = "default"
 }
@@ -79,6 +79,7 @@ catch (e) { if (e.which == 3) return false; }
 	document.onmousedown   = mousedwn;
 </script>
 
+// This may cause conflict with theme appearance/customization. To bypass issue, comment out line 83-85. Full solution in our support thread.
 <script type="text/javascript">
 if (top.location != self.location) top.location.replace(self.location);
 </script>
@@ -93,7 +94,7 @@ if (top.location != self.location) top.location.replace(self.location);
 
 img {
 	-webkit-touch-callout: none;
-	-webkit-user-select: none;		
+	-webkit-user-select: none;
     }
 </style>
 
@@ -111,7 +112,6 @@ window.addEventListener("keydown",function (e) {
 </script>
 
 <!-- WP Content Copy Protection script by Rynaldo Stoltz Ends -->
-
 
 
 

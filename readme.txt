@@ -5,37 +5,39 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, theft, no right click, plagiarism, content protection, image protection, image protect, photo, security, copy protection, secure
 Requires at least: 3.0
 Tested up to:      3.9
-Stable tag:        1.0.7
+Stable tag:        1.0.8
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable blog content from being stolen.
+The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable site content (text, source code, and images) from being stolen.
 
 == Description ==
 
-WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your blog content from being copied illegally. Some of the most common copy methods, such as right-click, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
+WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
 Basic Features:
 
 * iFrame Protection
-* Disables right click function on mouse
+* Disables text selection
+* Disables right click on mouse
+* Disables copy functions via browser
 * Disables image drag and drop functionality
 * Disables 'Hold to Copy' function on most mobile devices
 * Displays a client-side error message when Javascript is disabled in user's browser
 * Serves blank pages when JS is disabled in user's browser (user is forced to enable JS)
-* Disables keyboard copy commands (CTRL A, C, X, U, P) select all|copy|paste|print|view source
-* The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (deters image theft)
+* Disables keyboard copy (CTRL A, C, X, U, P) select all|copy|paste|print|view source
+* The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (basic image protection)
 
-Pro Version Features include:
+Our Pro Edition Features include:
 
 * Admin can exclude specific pages from being copy protected (globally)
 * Admin can disable copy protection for logged in/registered users (globally)
-* Aggressive image protection (makes it near impossible for users to steal your pictures)
+* Aggressive image protection (makes it near impossible for users to steal your images)
 * RSS feed protection against content scraping software and autoblogs
 * WPCCP is fully compatible with all major theme frameworks
 * WPCCP is fully compatible with all major browsers
 
-See WP Content Copy Protection Pro [Here](http://www.securiilock.com/)
+See WP Content Copy Protection Pro Edition [Here](http://www.securiilock.com/)
 
 While this will most certainly help protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
@@ -92,6 +94,9 @@ This plugin works on all major browsers. The full functionality (features) was t
 
 The pro version includes advanced image protection (making it near impossible for a user to copy/steal your images), RSS feed protection against content scraping software/autoblogs and, backend admin switches.
 
+= The plugin causes conflict with theme appearance/customization. =
+
+We are aware of the issue and are currently working on a fix. While we work on this, please use [this solution](http://wordpress.org/support/topic/the-plugin-interferes-theme-customisation?replies=2#post-5479857) to bypass the problem.
 
 == Changelog ==
 
@@ -197,3 +202,13 @@ The pro version includes advanced image protection (making it near impossible fo
 * changes in readme.txt
 * changes in settings.php
 * changes in fwpconsec.php
+
+= 1.0.8 =
+
+* addressed conflict with theme appearance/customization (fwpconsec and readme)
+* added missing feature in readme description
+* removed some unnecessary spacing in code
+* changed external URLs in settings
+* changed default (blank) index.php
+* added new question to readme faq
+* upgraded from v1.0.7-v1.0.8

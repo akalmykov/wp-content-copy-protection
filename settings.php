@@ -2,15 +2,14 @@
         <h2><?php _e('WP Content Copy Protection Settings', 'wpcp'); ?></h2><br><br>
 
 	                <div class="postbox" style="width: 900px;" cellpadding="6">
-					
+
 	<div class="inside">
 	<style type="text/css">
 	.inside {
 	font-family: Arial;
 		}
 	</style>
-
-			<font color ="ff0000">YOU ARE CURRENTLY USING THE BASIC (FREE) VERSION OF WPCCP ! THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO VERSION :</font><br></br>
+			<font color ="ff0000">YOU ARE CURRENTLY USING THE BASIC (FREE) VERSION OF WPCCP ! THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
 			Administrators can exclude specific pages from being copy protected (globally)</br></br>
 			Administrators can disable copy protection for all logged in and registered users (globally)<br></br>
 			WPCCP Pro includes aggressive image protection (makes is near impossible for anyone to steal your images)<br></br>
@@ -18,14 +17,13 @@
 			Upgraded Javascript error message (now includes user instructions)<br></br>
 			Text and image protection works on PC and mobile devices (globally)<br></br>
 			Fully compatible with all theme frameworks (including responsive)<br></br>
-			Fully compatible with all major browsers<br></br>			
+			Fully compatible with all major browsers<br></br>	
 			Fully compatible with WP version 3.9<br></br>
-			More features are being added (available soon)<br></br>
+			NEW features are being added (available soon)<br></br>
 			<br></br>
-			<font color ="ff0000">See WPCCP Pro demo in action <a href="http://www.securiilock.com/">HERE</a><br></br></font>
-			<font color ="ff0000">See WPCCP Pro image protection demo in action <a href="http://www.securiilock.com/tester-page-2/">HERE</a><br></br></font>
-			<font color ="ff0000">WPCCP Pro is available directly from our website (instant download) <a href="http://www.securiilock.com/">HERE</a><br></br></font>
-			<font color ="ff0000">Not looking for all the bells and whistles? Have a look at our Pic-Decoy (aggressive image protection) plugin <a href="http://www.securiilock.com/pic-decoy-wp-plugin/">HERE</a><br></br></font>
+			<font color ="ff0000">See WPCCP Pro Demo <a href="http://www.securiilock.com/content-protection-demo/">HERE</a><br></br></font>
+			<font color ="ff0000">See Pic-Decoy (our NEW aggressive image protection) Demo <a href="http://www.securiilock.com/image-protection-demo/">HERE</a><br></br></font>
+			<font color ="ff0000">WPCCP Pro and Pic-Decoy is available directly from our website (instant download) <a href="http://www.securiilock.com/">HERE</a><br></br></font>
 			<br></br>
 			<font color ="ff0000">HAVE YOU UPGRADED TO OUR PRO VERSION?</font> : Please make sure that you deactivate AND delete the free version BEFORE installing the Pro version. Thank You!<br></br><br></br>
 	<font color ="ff0000">HELP US TO HELP YOU</font> : Do you Like WP Content Copy Protection? Are you using our free version? Please consider making a donation to help us maintain, update and keep our plugins alive! <br></br>
@@ -34,7 +32,7 @@
 <input type="hidden" name="hosted_button_id" value="HZWQXQCBC77ZY">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>	
+</form>
 			</div>
 		</div>
 	</div>
