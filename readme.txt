@@ -212,3 +212,4 @@ We are aware of the issue and are currently working on a fix. While we work on t
 * changed default (blank) index.php
 * added new question to readme faq
 * upgraded from v1.0.7-v1.0.8
+* fixed iFrame code comment

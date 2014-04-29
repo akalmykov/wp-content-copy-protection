@@ -79,8 +79,8 @@ catch (e) { if (e.which == 3) return false; }
 	document.onmousedown   = mousedwn;
 </script>
 
-// This may cause conflict with theme appearance/customization. To bypass issue, comment out line 83-85. Full solution in our support thread.
 <script type="text/javascript">
+// This may cause conflict with theme appearance and customization. To bypass issue, comment out line 83-85. Full solution in our support thread.
 if (top.location != self.location) top.location.replace(self.location);
 </script>
 
