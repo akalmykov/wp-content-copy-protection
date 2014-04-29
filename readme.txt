@@ -9,7 +9,7 @@ Stable tag:        1.0.8
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable site content (text, source code, and images) from being stolen.
+The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable site content (text, source, and images) from being stolen.
 
 == Description ==
 
