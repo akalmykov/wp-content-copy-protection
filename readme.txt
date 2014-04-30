@@ -1,19 +1,19 @@
-=== WP Content Copy Protection ===
+=== WP Content Copy Protection (Lite) ===
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, theft, no right click, plagiarism, content protection, image protection, image protect, photo, security, copy protection, secure
 Requires at least: 3.0
 Tested up to:      3.9
-Stable tag:        1.0.8
+Stable tag:        1.0.8.1
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable site content (text, source, and images) from being stolen.
+The WP Content Copy Protection (Lite) plugin uses multiple techniques in protecting your valuable site content from being stolen.
 
 == Description ==
 
-WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
+WP Content Copy Protection (Lite) is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
 
 Basic Features:
 
@@ -25,7 +25,7 @@ Basic Features:
 * Disables 'Hold to Copy' function on most mobile devices
 * Displays a client-side error message when Javascript is disabled in user's browser
 * Serves blank pages when JS is disabled in user's browser (user is forced to enable JS)
-* Disables keyboard copy (CTRL A, C, X, U, P) select all|copy|paste|print|view source
+* Disables keyboard copy (CTRL A, C, X, U, P, and S) select all|copy|paste|print|view source|Save
 * The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (basic image protection)
 
 Our Pro Edition Features include:
@@ -58,11 +58,11 @@ PLEASE NOTE: This plugin is not meant for Mac based OS!!
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
-Just email us at: support@securiilock.com / Email Subject : WP Content Copy Protection
+Just email us at: support@securiilock.com / Email Subject : WP Content Copy Protection (Lite)
 
 == Upgrade Notice ==
 
-= Version 1.0.6.03 = 
+= Version 1.0.8.1 = 
 
 == Screenshots ==
 
@@ -70,7 +70,7 @@ none
 
 == Frequently Asked Questions ==
 
-= Will WP Content Copy Protection Plugin have a negative impact on my SEO? =
+= Will WP Content Copy Protection (Lite) Plugin have a negative impact on my SEO? =
 
 Absolutely not! This plugin will only affect the user's browser (attempting to copy your content) and will have absolutely no negative impact on your SEO.
 
@@ -78,7 +78,7 @@ Absolutely not! This plugin will only affect the user's browser (attempting to c
 
 Yes! However, our Pro version allows the blog administrator to enable/disable copy protect functions for registered and logged in users (globally)
 
-= Will your WP Content Copy Protection Plugin affect my Advertising Units (Adsense)? =
+= Will your WP Content Copy Protection (Lite) Plugin affect my Advertising Units (Adsense)? =
 
 Absolutely not! Although this plugin locks your content and prevents it from being copied by anyone else, your advertising units will remain unaffected as the code doesn't alter any embeddable code or the functioning thereof.
 
@@ -213,3 +213,14 @@ We are aware of the issue and are currently working on a fix. While we work on t
 * added new question to readme faq
 * upgraded from v1.0.7-v1.0.8
 * fixed iFrame code comment
+
+= 1.0.8.1 =
+
+* added new function (ctrl+s = document saving) to keyboard copy protection. Now prevents keyboard shortcut to saving documents/webpages.
+* fixed typo error in fwpconsec.php (caused code comments to display in UI)
+* renamed plugin name due to conflict with another plugin
+* renamed php files (fwpconsec.php to wpccpl.php)
+* made changes to settings/readme files
+* made changes to blank index.php
+* pushed from v1.0.8-v1.0.8.1
+* general housekeeping

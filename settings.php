@@ -1,5 +1,5 @@
 <div class="wrap">
-        <h2><?php _e('WP Content Copy Protection Settings', 'wpcp'); ?></h2><br><br>
+        <h2><?php _e('WP Content Copy Protection (Lite) Settings', 'wpcp'); ?></h2><br><br>
 
 	                <div class="postbox" style="width: 900px;" cellpadding="6">
 
@@ -9,7 +9,7 @@
 	font-family: Arial;
 		}
 	</style>
-			<font color ="ff0000">YOU ARE CURRENTLY USING THE BASIC (FREE) VERSION OF WPCCP ! THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
+			<font color ="ff0000">YOU ARE CURRENTLY USING THE BASIC (FREE) VERSION OF WPCCP. THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
 			Administrators can exclude specific pages from being copy protected (globally)</br></br>
 			Administrators can disable copy protection for all logged in and registered users (globally)<br></br>
 			WPCCP Pro includes aggressive image protection (makes is near impossible for anyone to steal your images)<br></br>

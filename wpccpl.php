@@ -1,10 +1,10 @@
 <?php
 
 /*
-  Plugin Name: WP Content Copy Protection
+  Plugin Name: WP Content Copy Protection (Lite)
   Plugin URI: http://securiilock.com
-  Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about our advanced protection.
-  Version: 1.0.8
+  Description: WP Content Copy Protection (Lite) prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
+  Version: 1.0.8.1
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
@@ -34,7 +34,7 @@ if(is_admin()) {
 }
 
 function constr_menu() {
-	add_options_page('WP Content Copy Protection', 'WP Content Copy Protection', 'manage_options', 'wpcp_options', 'return_settings');
+	add_options_page('WP Content Copy Protection (Lite)', 'WP Content Copy Protection (Lite)', 'manage_options', 'wpcp_options', 'return_settings');
 }
 
 function return_settings() {
@@ -80,7 +80,7 @@ catch (e) { if (e.which == 3) return false; }
 </script>
 
 <script type="text/javascript">
-// This may cause conflict with theme appearance and customization. To bypass issue, comment out line 83-85. Full solution in our support thread.
+// This may cause conflict with theme appearance and customization. To bypass issue, comment out line 84. Solution in our support thread.
 if (top.location != self.location) top.location.replace(self.location);
 </script>
 
@@ -100,12 +100,12 @@ img {
 
 <script type='text/javascript'>
 window.addEventListener("keydown",function (e) {
-    if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 85 || e.which == 80)) {
+    if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
         e.preventDefault();
     }
 })
         document.keypress = function(e) {
-        if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 85 || e.which == 80)) {
+        if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
 	}
 		return false;
 				};
