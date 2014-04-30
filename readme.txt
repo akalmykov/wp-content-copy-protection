@@ -13,7 +13,7 @@ The WP Content Copy Protection (Lite) plugin uses multiple techniques in protect
 
 == Description ==
 
-WP Content Copy Protection (Lite) is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, and P are disabled with this plugin. 
+WP Content Copy Protection (Lite) is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin. 
 
 Basic Features:
 
