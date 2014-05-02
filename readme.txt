@@ -1,23 +1,22 @@
-=== WP Content Copy Protection (Lite) ===
+=== WP Content Copy Protection ===
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, theft, no right click, plagiarism, content protection, image protection, image protect, photo, security, copy protection, secure
 Requires at least: 3.0
 Tested up to:      3.9
-Stable tag:        1.0.8.1
+Stable tag:        1.0.8.2
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection (Lite) plugin uses multiple techniques in protecting your valuable site content from being stolen.
+The WP Content Copy Protection plugin uses multiple techniques in protecting your valuable site content (text, source, images) from being stolen.
 
 == Description ==
 
-WP Content Copy Protection (Lite) is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin. 
+WP Content Copy Protection is a simple plugin that uses multiple techniques in protecting your content from being copied illegally. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin. 
 
 Basic Features:
 
-* iFrame Protection
 * Disables text selection
 * Disables right click on mouse
 * Disables copy functions via browser
@@ -26,6 +25,7 @@ Basic Features:
 * Displays a client-side error message when Javascript is disabled in user's browser
 * Serves blank pages when JS is disabled in user's browser (user is forced to enable JS)
 * Disables keyboard copy (CTRL A, C, X, U, P, and S) select all|copy|paste|print|view source|Save
+* Disables keyboard command responsible for opening developer tools (preventing user from viewing source code)
 * The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (basic image protection)
 
 Our Pro Edition Features include:
@@ -48,7 +48,6 @@ PLEASE NOTE: This plugin is not meant for Mac based OS!!
 1. Have any negative impact on your SEO.
 2. Have any negative effect on your Advertising (such as Adsense) : Embed codes are NOT affected by this plugin in any way.
 
-
 == Installation ==
 
 1. Download the .zip file
@@ -58,11 +57,11 @@ PLEASE NOTE: This plugin is not meant for Mac based OS!!
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
-Just email us at: support@securiilock.com / Email Subject : WP Content Copy Protection (Lite)
+Just email us at: support@securiilock.com / Email Subject : WP Content Copy Protection
 
 == Upgrade Notice ==
 
-= Version 1.0.8.1 = 
+= Version 1.0.8.2 = 
 
 == Screenshots ==
 
@@ -70,7 +69,7 @@ none
 
 == Frequently Asked Questions ==
 
-= Will WP Content Copy Protection (Lite) Plugin have a negative impact on my SEO? =
+= Will WP Content Copy Protection Plugin have a negative impact on my SEO? =
 
 Absolutely not! This plugin will only affect the user's browser (attempting to copy your content) and will have absolutely no negative impact on your SEO.
 
@@ -78,7 +77,7 @@ Absolutely not! This plugin will only affect the user's browser (attempting to c
 
 Yes! However, our Pro version allows the blog administrator to enable/disable copy protect functions for registered and logged in users (globally)
 
-= Will your WP Content Copy Protection (Lite) Plugin affect my Advertising Units (Adsense)? =
+= Will your WP Content Copy Protection Plugin affect my Advertising Units (Adsense)? =
 
 Absolutely not! Although this plugin locks your content and prevents it from being copied by anyone else, your advertising units will remain unaffected as the code doesn't alter any embeddable code or the functioning thereof.
 
@@ -96,7 +95,11 @@ The pro version includes advanced image protection (making it near impossible fo
 
 = The plugin causes conflict with theme appearance/customization. =
 
-We are aware of the issue and are currently working on a fix. While we work on this, please use [this solution](http://wordpress.org/support/topic/the-plugin-interferes-theme-customisation?replies=2#post-5479857) to bypass the problem.
+We are aware of the issue and are currently working on a fix. We have disabled this function until we resolve the issue. 
+
+= The view source option is still available from the Browser =
+
+We are aware that the view source option is still accessible from the browser and we are busy working on a fix for this. Possible temporary solution = source code padding. This involves adding a ton of white space before the start of your code so that the view source menu appears blank. See [example](http://www.securiilock.com/)
 
 == Changelog ==
 
@@ -224,3 +227,12 @@ We are aware of the issue and are currently working on a fix. While we work on t
 * made changes to blank index.php
 * pushed from v1.0.8-v1.0.8.1
 * general housekeeping
+
+= 1.0.8.2 =
+
+* disabled iframe breaking code due to conflict with theme customizer
+* added new function = disabled key command responsible for opening developer tools (another way of viewing source code)
+* renamed plugin name (previous plugin conflict resolved)
+* changed plugin version from v1.0.8.1-v1.0.8.2
+* tested all current functions with v3.9
+* made changes to readme

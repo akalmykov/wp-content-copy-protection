@@ -1,10 +1,10 @@
 <?php
 
 /*
-  Plugin Name: WP Content Copy Protection (Lite)
+  Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com
-  Description: WP Content Copy Protection (Lite) prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
-  Version: 1.0.8.1
+  Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
+  Version: 1.0.8.2
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
@@ -12,7 +12,7 @@
  */
 
 /*
-  Copyright 2013  Rynaldo Stoltz  (email : support@securiilock.com)
+  Copyright 2014  Rynaldo Stoltz  (email : support@securiilock.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -80,13 +80,12 @@ catch (e) { if (e.which == 3) return false; }
 </script>
 
 <script type="text/javascript">
-// This may cause conflict with theme appearance and customization. To bypass issue, comment out line 84. Solution in our support thread.
-if (top.location != self.location) top.location.replace(self.location);
+// This may cause conflict with theme appearance and customization. Currently disabled.
+// if (top.location != self.location) top.location.replace(self.location);
 </script>
 
 <style type="text/css">
 * : (input, textarea) {
-
     -webkit-touch-callout: none;
     -webkit-user-select: none;
 
@@ -98,7 +97,7 @@ img {
     }
 </style>
 
-<script type='text/javascript'>
+<script type="text/javascript">
 window.addEventListener("keydown",function (e) {
     if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
         e.preventDefault();
@@ -111,7 +110,18 @@ window.addEventListener("keydown",function (e) {
 				};
 </script>
 
+<script type="text/javascript">
+document.onkeydown = function (event) {
+     event = (event || window.event);
+     if (event.keyCode == 123 || event.keyCode == 18)
+     {
+           return false;
+     }
+}
+</script>
+
 <!-- WP Content Copy Protection script by Rynaldo Stoltz Ends -->
+
 
 
 

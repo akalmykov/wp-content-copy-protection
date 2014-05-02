@@ -9,7 +9,7 @@
 	font-family: Arial;
 		}
 	</style>
-			<font color ="ff0000">YOU ARE CURRENTLY USING THE BASIC (FREE) VERSION OF WPCCP. THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
+			<font color ="ff0000">YOU ARE CURRENTLY USING THE FREE VERSION OF WPCCP. THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
 			Administrators can exclude specific pages from being copy protected (globally)</br></br>
 			Administrators can disable copy protection for all logged in and registered users (globally)<br></br>
 			WPCCP Pro includes aggressive image protection (makes is near impossible for anyone to steal your images)<br></br>
@@ -19,7 +19,7 @@
 			Fully compatible with all theme frameworks (including responsive)<br></br>
 			Fully compatible with all major browsers<br></br>	
 			Fully compatible with WP version 3.9<br></br>
-			NEW features are being added (available soon)<br></br>
+			NEW features are currently being added (available soon)<br></br>
 			<br></br>
 			<font color ="ff0000">See WPCCP Pro Demo <a href="http://www.securiilock.com/content-protection-demo/">HERE</a><br></br></font>
 			<font color ="ff0000">See Pic-Decoy (our NEW aggressive image protection) Demo <a href="http://www.securiilock.com/image-protection-demo/">HERE</a><br></br></font>
