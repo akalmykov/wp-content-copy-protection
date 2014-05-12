@@ -12,17 +12,19 @@
 			<font color ="ff0000">YOU ARE CURRENTLY USING THE FREE VERSION OF WPCCP. THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
 			Administrators can exclude specific pages from being copy protected (globally)</br></br>
 			Administrators can disable copy protection for all logged in and registered users (globally)<br></br>
-			WPCCP Pro includes aggressive image protection (makes is near impossible for anyone to steal your images)<br></br>
-			Pro version includes RSS feed protection against content scraping software and autoblogs<br></br>
-			Upgraded Javascript error message (now includes user instructions)<br></br>
-			Text and image protection works on PC and mobile devices (globally)<br></br>
+			Super aggressive image/photo protection (makes is near impossible for anyone to steal your images)<br></br>
+			Super RSS feed protection against content scraping software and autoblogs<br></br>
+			Upgraded Javascript error message (includes user instructions to enable their JS)<br></br>
+			All text and image protection works on PC and most mobile devices (globally)<br></br>
+			Prt Sc (Print Screen) deterrent agent added (NEW - Preventative measure in image theft)<br></br>
+			Right click error message capability (newly added)<br></br>
 			Fully compatible with all theme frameworks (including responsive)<br></br>
 			Fully compatible with all major browsers<br></br>	
 			Fully compatible with WP version 3.9<br></br>
 			NEW features are currently being added (available soon)<br></br>
 			<br></br>
 			<font color ="ff0000">See WPCCP Pro Demo <a href="http://www.securiilock.com/content-protection-demo/">HERE</a><br></br></font>
-			<font color ="ff0000">See Pic-Decoy (our NEW aggressive image protection) Demo <a href="http://www.securiilock.com/image-protection-demo/">HERE</a><br></br></font>
+			<font color ="ff0000">See Pic-Decoy (our NEW aggressive image protection ONLY) Demo <a href="http://www.securiilock.com/image-protection-demo/">HERE</a><br></br></font>
 			<font color ="ff0000">WPCCP Pro and Pic-Decoy is available directly from our website (instant download) <a href="http://www.securiilock.com/">HERE</a><br></br></font>
 			<br></br>
 			<font color ="ff0000">HAVE YOU UPGRADED TO OUR PRO VERSION?</font> : Please make sure that you deactivate AND delete the free version BEFORE installing the Pro version. Thank You!<br></br><br></br>

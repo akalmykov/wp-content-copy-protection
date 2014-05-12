@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
-  Version: 1.0.8.2
+  Version: 1.0.8.4
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
@@ -12,7 +12,7 @@
  */
 
 /*
-  Copyright 2014  Rynaldo Stoltz  (email : support@securiilock.com)
+  Copyright 2013/2014  Rynaldo Stoltz  (email : support@securiilock.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -64,7 +64,7 @@ if (typeof target.onselectstart!="undefined")
 else if (typeof target.style.MozUserSelect!="undefined")
 	target.style.MozUserSelect="none"
 else
-	target.onmousedown=function(){return false}
+	target.onmousedown=function() {return false}
 target.style.cursor = "default"
 }
 </script>
@@ -80,7 +80,7 @@ catch (e) { if (e.which == 3) return false; }
 </script>
 
 <script type="text/javascript">
-// This may cause conflict with theme appearance and customization. Currently disabled.
+// This may cause conflict with theme appearance and customization. Currently disabled. Uncomment after customizing theme if you wish to break out of iframes.
 // if (top.location != self.location) top.location.replace(self.location);
 </script>
 
@@ -90,21 +90,23 @@ catch (e) { if (e.which == 3) return false; }
     -webkit-user-select: none;
 
 }
+</style>
 
+<style type="text/css">
 img {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
     }
 </style>
 
-<script type="text/javascript">
+<script type='text/javascript'>
 window.addEventListener("keydown",function (e) {
-    if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
+    if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
         e.preventDefault();
     }
 })
         document.keypress = function(e) {
-        if (e.ctrlKey && (e.which == 65 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
+        if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
 	}
 		return false;
 				};
@@ -121,8 +123,6 @@ document.onkeydown = function (event) {
 </script>
 
 <!-- WP Content Copy Protection script by Rynaldo Stoltz Ends -->
-
-
 
 
 
