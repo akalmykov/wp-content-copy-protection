@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
-  Version: 1.0.8.4
+  Version: 1.0.8.5
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
