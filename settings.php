@@ -14,13 +14,15 @@
 			Administrators can disable copy protection for all logged in and registered users (globally)<br></br>
 			Super aggressive image/photo protection (makes is near impossible for anyone to steal your images)<br></br>
 			Super RSS feed protection against content scraping software and autoblogs<br></br>
-			Upgraded Javascript error message (includes user instructions to enable their JS)<br></br>
-			All text and image protection works on PC and most mobile devices (globally)<br></br>
+			Upgraded Javascript error message (includes user instructions | blank pages served until user enables JS)<br></br>
 			Prt Sc (Print Screen) deterrent agent added (NEW - Preventative measure in image theft)<br></br>
+			All text and image protection works on PC and most mobile devices (globally)<br></br>
 			Right click error message capability (newly added)<br></br>
-			Fully compatible with all theme frameworks (including responsive)<br></br>
+			Fully compatible with all theme frameworks<br></br>
 			Fully compatible with all major browsers<br></br>	
 			Fully compatible with WP version 3.9<br></br>
+			Quality, lightning-fast support<br></br>
+			Free Lifetime Updates<br></br>
 			NEW features are currently being added (available soon)<br></br>
 			<br></br>
 			<font color ="ff0000">See WPCCP Pro Demo <a href="http://www.securiilock.com/content-protection-demo/">HERE</a><br></br></font>
@@ -28,7 +30,7 @@
 			<font color ="ff0000">WPCCP Pro and Pic-Decoy is available directly from our website (instant download) <a href="http://www.securiilock.com/">HERE</a><br></br></font>
 			<br></br>
 			<font color ="ff0000">HAVE YOU UPGRADED TO OUR PRO VERSION?</font> : Please make sure that you deactivate AND delete the free version BEFORE installing the Pro version. Thank You!<br></br><br></br>
-	<font color ="ff0000">HELP US TO HELP YOU</font> : Do you Like WP Content Copy Protection? Are you using our free version? Please consider making a donation to help us maintain, update and keep our plugins alive! <br></br>
+	<font color ="ff0000">HELP US TO HELP YOU</font> : Do you Like WP Content Copy Protection? Please consider making a small donation to help us maintain, update and keep our plugins alive, and your content safe! <br></br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="HZWQXQCBC77ZY">

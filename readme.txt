@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, theft, no right click, plagiarism, content protection, image protection, image protect, photo, security, copy protection, secure
 Requires at least: 3.0
 Tested up to:      3.9.1
-Stable tag:        1.0.8.4
+Stable tag:        1.0.8.5
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ The WP Content Copy Protection plugin uses multiple techniques in protecting you
 
 == Description ==
 
-WP Content Copy Protection is a simple, yet aggressive plugin that uses multiple techniques in protecting your content from being stolen. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin. 
+WP Content Copy Protection is a simple, yet aggressive plugin that uses multiple techniques in protecting your content from being stolen. Some of the most common copy methods, such as right-click copy functions, image dragging, and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin. This is a simple, lightweight, plugin with teeth! An absolute must if you are serious about protecting your content!
 
 Basic Features:
 
@@ -21,11 +21,12 @@ Basic Features:
 * Disables right click on mouse
 * Disables copy functions via browser
 * Disables image drag and drop functionality
+* Frame breaking capability (optional)
 * Disables text/image copy function on most mobile devices
-* Displays a client-side error message when Javascript is disabled in user's browser
-* Serves blank pages when JS is disabled in user's browser (user is forced to enable JS)
-* Disables keyboard copy (CTRL A (select all), C (copy), X (cut), U (view source), P (print), and S (save page))
-* Disables keyboard command responsible for opening developer tools (preventing user from viewing source code)
+* Displays a client-side error message when Javascript is disabled in client browser
+* Serves blank pages when JS is disabled in client browser (user is forced to enable JS)
+* Disables keyboard copy (CTRL A - select all, C - copy, X - cut, U - view source, P - print, and S - save page)
+* Disables keyboard command responsible for opening developer tools (used as a bypass measure in viewing source code)
 * Disables bookmark feature (used as a bypass measure in viewing source code)
 * The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (basic image protection)
 
@@ -35,11 +36,12 @@ Our Pro Edition Features include:
 * Admin can disable copy protection for logged in and registered users (globally)
 * Aggressive image protection (makes it near impossible for users to steal your images on PC and Mobile - Upgraded)
 * Prt Sc (Print Screen) deterrent agent added (NEW - Preventative measure in image theft)
+* Super RSS feed protection against content scraping software and autoblogs
 * Right click error message popup capability
 * Upgraded JS error with user instructions
-* Super RSS feed protection against content scraping software and autoblogs
 * WPCCP is fully compatible with all major theme frameworks
 * WPCCP is fully compatible with all major browsers
+* More features are currently being added
 
 See WP Content Copy Protection Pro Edition [Here](http://www.securiilock.com/)
 
@@ -65,7 +67,7 @@ Just email us at: support@securiilock.com / Email Subject : WP Content Copy Prot
 
 == Upgrade Notice ==
 
-= Version 1.0.8.4 = 
+= Version 1.0.8.5 = 
 
 == Screenshots ==
 
@@ -75,7 +77,7 @@ none
 
 = Will WP Content Copy Protection Plugin have a negative impact on my SEO? =
 
-Absolutely not! This plugin will only affect the user's browser (attempting to copy your content) and will have absolutely no negative impact on your SEO.
+Absolutely not! This plugin will only affect the client browser and will have absolutely no negative impact on your SEO. In fact, it would assist in increasing your SEO score as your content will remain unique.
 
 = Will this plugin disable the features from the site administrator also? =
 
@@ -87,23 +89,24 @@ Absolutely not! Although this plugin locks your content and prevents it from bei
 
 = Why Did you Exclude The alert-message (Popup), Function? =
 
-This function was removed simply because it could scare away your website visitors - cause a higher bounce rate - and essentially defame your website. We like to be 'silent'!
+This function was removed simply because it could scare away your website visitors - cause a higher bounce rate - and essentially defame your website. We like to be silent! However, this is optional in our Pro edition.
 
 = Does your Plugin work on all major Browsers? =
 
-This plugin works on all major browsers. The full functionality (features) was tested on the latest versions of IE (Internet Explorer), Mozilla FF, and Chrome without any problems. Our plugin is also compatible with all major theme frameworks.
+This plugin works on all major browsers and theme frameworks. The full functionality of WPCCP was tested on the latest versions of IE (Internet Explorer), Mozilla FF, and Chrome without any problems.
 
 = What is the difference between the free version and the pro version? =
 
-The pro version includes advanced image protection (making it near impossible for a user to copy/steal your images), RSS feed protection against content scraping software/autoblogs and, backend admin switches.
+The pro version includes super aggressive image protection (making it near impossible for a user to copy/steal your images), Prt Sc (print screen) deterrent agent, optional alert message for right click, RSS feed protection against content scraping software/autoblogs and, backend admin switches.
 
-= The plugin causes conflict with theme appearance/customization. =
+= Why did you remove the iframe breaker? =
 
-We are aware of the issue and are currently working on a fix. We have disabled this function until we resolve the issue. 
+We decided to remove the Iframe breaker due to conflict with theme appearance/customization.
 
-= The view source option is still available from the Browser =
+= How would I break out of Iframes now? =
 
-We are aware that the view source option is still accessible from the browser and we are busy working on a fix for this. Possible temporary solution = source code padding. This involves adding a ton of white space before the start of your code so that the view source menu appears blank. See [example](http://www.securiilock.com/)
+Please use the X-Frame-Options HTTP response header. This is achieved by adding the following directive to your root .htaccess file: 
+Header always append X-Frame-Options DENY (The DENY rule will prevent ALL domains from framing the content). You can replace DENY, with SAMEORIGIN (which only allows the current domain to frame the content).
 
 == Changelog ==
 
@@ -246,4 +249,11 @@ We are aware that the view source option is still accessible from the browser an
 * disabled bookmark feature (used as a bypass measure in viewing source code)
 * closed style tags in mobile copy disable function
 * tested plugin compatibility with v3.9.1
+* general housekeeping
+
+= 1.0.8.5 =
+
+* removed js for iframe breaking function
+* added X-Frame-Options HTTP response header as iframe breaker alternative
+* made readme.txt changes to include workaround
 * general housekeeping

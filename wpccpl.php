@@ -44,9 +44,11 @@ function return_settings() {
 add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() { ?>
+function fwpcon_pro() { 
 
-<!-- WP Content Copy Protection script by Rynaldo Stoltz Starts -->
+?>
+
+<!-- WP Content Copy Protection script by Rynaldo Stoltz Starts - http://securiilock.com -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
@@ -79,11 +81,6 @@ catch (e) { if (e.which == 3) return false; }
 	document.onmousedown   = mousedwn;
 </script>
 
-<script type="text/javascript">
-// This may cause conflict with theme appearance and customization. Currently disabled. Uncomment after customizing theme if you wish to break out of iframes.
-// if (top.location != self.location) top.location.replace(self.location);
-</script>
-
 <style type="text/css">
 * : (input, textarea) {
     -webkit-touch-callout: none;
@@ -99,7 +96,7 @@ img {
     }
 </style>
 
-<script type='text/javascript'>
+<script type="text/javascript">
 window.addEventListener("keydown",function (e) {
     if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
         e.preventDefault();
@@ -122,9 +119,7 @@ document.onkeydown = function (event) {
 }
 </script>
 
-<!-- WP Content Copy Protection script by Rynaldo Stoltz Ends -->
-
-
+<!-- WP Content Copy Protection script by Rynaldo Stoltz Ends - http://securiilock.com -->
 
 
 
