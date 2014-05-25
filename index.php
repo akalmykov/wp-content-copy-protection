@@ -1,7 +1,7 @@
 <?php
 
 /**
- * I am Proudly Protected by WordPress Content Copy Protection!
+ * I am Proudly Protected by WordPress Content Copy Protection Pro Edition from Securiilock!
  */
 
 ?>

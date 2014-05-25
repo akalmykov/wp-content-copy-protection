@@ -9,28 +9,32 @@
 	font-family: Arial;
 		}
 	</style>
-			<font color ="ff0000">YOU ARE CURRENTLY USING THE FREE VERSION OF WPCCP. THE FOLLOWING FEATURES ARE INCLUDED WITH OUR PRO EDITION:</font><br></br>
-			Administrators can exclude specific pages from being copy protected (globally)</br></br>
-			Administrators can disable copy protection for all logged in and registered users (globally)<br></br>
-			Super aggressive image/photo protection (makes is near impossible for anyone to steal your images)<br></br>
-			Super RSS feed protection against content scraping software and autoblogs<br></br>
-			Upgraded Javascript error message (includes user instructions | blank pages served until user enables JS)<br></br>
-			Prt Sc (Print Screen) deterrent agent added (NEW - Preventative measure in image theft)<br></br>
-			All text and image protection works on PC and most mobile devices (globally)<br></br>
-			Right click error message capability (newly added)<br></br>
-			Fully compatible with all theme frameworks<br></br>
-			Fully compatible with all major browsers<br></br>	
-			Fully compatible with WP version 3.9<br></br>
-			Quality, lightning-fast support<br></br>
-			Free Lifetime Updates<br></br>
-			NEW features are currently being added (available soon)<br></br>
-			<br></br>
-			<font color ="ff0000">See WPCCP Pro Demo <a href="http://www.securiilock.com/content-protection-demo/">HERE</a><br></br></font>
-			<font color ="ff0000">See Pic-Decoy (our NEW aggressive image protection ONLY) Demo <a href="http://www.securiilock.com/image-protection-demo/">HERE</a><br></br></font>
-			<font color ="ff0000">WPCCP Pro and Pic-Decoy is available directly from our website (instant download) <a href="http://www.securiilock.com/">HERE</a><br></br></font>
-			<br></br>
-			<font color ="ff0000">HAVE YOU UPGRADED TO OUR PRO VERSION?</font> : Please make sure that you deactivate AND delete the free version BEFORE installing the Pro version. Thank You!<br></br><br></br>
-	<font color ="ff0000">HELP US TO HELP YOU</font> : Do you Like WP Content Copy Protection? Please consider making a small donation to help us maintain, update and keep our plugins alive, and your content safe! <br></br>
+			<font color ="ff0000"><u>YOU ARE CURRENTLY USING THE FREE VERSION OF WPCCP. THE FOLLOWING FEATURES ARE INCLUDED IN OUR PRO EDITION:</u></font><br></br><hr />
+			<font size="1">Admin can exclude specific pages from being copy protected (globally)</font><br />
+			<font size="1">Admin can exclude specific posts from being protected (globally)</font><br />
+			<font size="1">Admin can disable protection for admins/registered users/logged in users</font><br />
+			<font size="1">Super aggressive image/photo protection (near impossible for anyone to steal your images)</font><br />
+			<font size="1">Super image protection is extended beyond the context menu (uses NEW and improved technology)</font><br />
+			<font size="1">Super RSS feed protection against content scraping software and autoblogs</font><br />
+			<font size="1">Upgraded Javascript error message (blank pages served until user enables JS)</font><br />
+			<font size="1">Source code padding option - hide your source code(admin can adjust padding)</font><br />
+			<font size="1">Source code view is disabled from F12, Ctrl+shift+i and all other possible source view instances</font><br />
+			<font size="1">Prt Sc (Print Screen) deterrent agent added (NEW - Preventative measure in image theft)</font><br />
+			<font size="1">All text and image protection works on PC, mobile devices and smart phones</font><br />
+			<font size="1">Keyboard copy commands = Windows, Linux and Mac OSX compatible</font><br />
+			<font size="1">Right click error message capability (newly added/optional)</font><br />
+			<font size="1">Disables context menu (mouse/keyboard/on screen keyboard)</font><br />
+			<font size="1">Fully compatible with all theme frameworks</font><br />
+			<font size="1">Fully compatible with all major browsers</font><br />	
+			<font size="1">Fully compatible with WP version 3.9</font><br />
+			<font size="1">Quality, lightning-fast support</font><br />
+			<font size="1">Free Lifetime Updates</font><br /><hr />
+			<font color ="ff0000" size="1" ><u>DEMOS</u></font><br />
+			<font color ="ff0000" size="1" ><a href="http://www.securiilock.com/content-protection-demo/">WP CONTENT COPY PROTECTION PRO EDITION DEMO</a><br /></font>
+			<font color ="ff0000" size="1" ><a href="http://www.securiilock.com/image-protection-demo/">PIC-DECOY (NEW AGGRESSIVE IMAGE PROTECTION) DEMO</a><br /></font><hr />
+			<font color ="ff0000" size="1" >WP CONTENT COPY PROTECTION PRO EDITION AND PIC-DECOY IS AVAILABLE DIRECTLY FROM <a href="http://www.securiilock.com/">SECURIILOCK WEBSITE</a> (INSTANT DOWNLOAD)<br /></font>
+			<br /><hr />
+	<font color ="ff0000" size="1" >HELP US TO HELP YOU</font> : <font size="1">Do you like WP Content Copy Protection? Please consider making a small donation to help us maintain, update and keep our plugins alive, and keep your content safe! We appreciate your support so much!</font> <br></br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="HZWQXQCBC77ZY">

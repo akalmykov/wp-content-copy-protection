@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
-  Version: 1.0.8.5
+  Version: 1.0.8.6
   Author: RSPublishing
   Author URI: http://securiilock.com
   License: GPLv2 or later
@@ -48,7 +48,7 @@ function fwpcon_pro() {
 
 ?>
 
-<!-- WP Content Copy Protection script by Rynaldo Stoltz Starts - http://securiilock.com -->
+<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://securiilock.com -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
@@ -56,29 +56,11 @@ function fwpcon_pro() {
 </noscript></div>
 
 <script type="text/javascript">
-window.onload = function() {
-	disableSelection(document.body)
-}
-
-function disableSelection(target){
-if (typeof target.onselectstart!="undefined")
-	target.onselectstart=function(){return false}
-else if (typeof target.style.MozUserSelect!="undefined")
-	target.style.MozUserSelect="none"
-else
-	target.onmousedown=function() {return false}
-target.style.cursor = "default"
-}
+function disableSelection(e){if(typeof e.onselectstart!="undefined")e.onselectstart=function(){return false};else if(typeof e.style.MozUserSelect!="undefined")e.style.MozUserSelect="none";else e.onmousedown=function(){return false};e.style.cursor="default"}window.onload=function(){disableSelection(document.body)}
 </script>
 
 <script type="text/javascript">
-function mousedwn(e) {
-try { if (event.button == 2||event.button == 3) return false; }
-catch (e) { if (e.which == 3) return false; }
-}
-	document.oncontextmenu = function() { return false; }
-	document.ondragstart   = function() { return false; }
-	document.onmousedown   = mousedwn;
+function mousedwn(e){try{if(event.button==2||event.button==3)return false}catch(e){if(e.which==3)return false}}document.oncontextmenu=function(){return false};document.ondragstart=function(){return false};document.onmousedown=mousedwn
 </script>
 
 <style type="text/css">
@@ -97,31 +79,14 @@ img {
 </style>
 
 <script type="text/javascript">
-window.addEventListener("keydown",function (e) {
-    if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
-        e.preventDefault();
-    }
-})
-        document.keypress = function(e) {
-        if (e.ctrlKey && (e.which == 65 || e.which == 66 || e.which == 67 || e.which == 80 || e.which == 83 || e.which == 85)) {
-	}
-		return false;
-				};
+window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
 </script>
 
 <script type="text/javascript">
-document.onkeydown = function (event) {
-     event = (event || window.event);
-     if (event.keyCode == 123 || event.keyCode == 18)
-     {
-           return false;
-     }
-}
+document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
 </script>
 
-<!-- WP Content Copy Protection script by Rynaldo Stoltz Ends - http://securiilock.com -->
-
-
+<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://securiilock.com -->
 
 
 
