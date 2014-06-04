@@ -2,17 +2,17 @@
 
 /*
   Plugin Name: WP Content Copy Protection
-  Plugin URI: http://securiilock.com
-  Description: WP Content Copy Protection prevents plagiarism and protects your valuable site content (source code|text|images) from being copied by others. Our Pro version includes much more. See <a href="options-general.php?page=wpcp_options">Settings -> WP Content Copy Protection</a> to learn more about WPCCP Pro - The complete content protection plugin for WordPress.
-  Version: 1.0.8.6
+  Plugin URI: http://securiilock.com/
+  Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
+  Version: 1.0.9.1
   Author: RSPublishing
-  Author URI: http://securiilock.com
+  Author URI: http://securiilock.com/
   License: GPLv2 or later
-  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html/
  */
 
 /*
-  Copyright 2013/2014  Rynaldo Stoltz  (email : support@securiilock.com)
+  Copyright 2013/2014  Rynaldo Stoltz  (email: support@securiilock.com | web: http://securiilock.com/)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -34,7 +34,7 @@ if(is_admin()) {
 }
 
 function constr_menu() {
-	add_options_page('WP Content Copy Protection (Lite)', 'WP Content Copy Protection (Lite)', 'manage_options', 'wpcp_options', 'return_settings');
+	add_options_page('WP Content Copy Protection', 'WP Content Copy Protection', 'manage_options', 'wpcp_options', 'return_settings');
 }
 
 function return_settings() {
@@ -44,11 +44,11 @@ function return_settings() {
 add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() { 
+function fwpcon_pro() {
 
 ?>
 
-<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://securiilock.com -->
+<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://securiilock.com/ -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
@@ -67,7 +67,6 @@ function mousedwn(e){try{if(event.button==2||event.button==3)return false}catch(
 * : (input, textarea) {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-
 }
 </style>
 
@@ -86,7 +85,7 @@ window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.whic
 document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
 </script>
 
-<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://securiilock.com -->
+<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://securiilock.com/ -->
 
 
 
@@ -115,6 +114,7 @@ document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==1
 
 
 
-<?php 
-} 
+
+<?php
+}
 ?>
