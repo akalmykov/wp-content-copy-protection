@@ -22,11 +22,10 @@ This is a plugin with teeth - an absolute must for any business owner, blogger a
 * Disables context menu globally (only enabled on HREF tags) 
 * Disables text selection and browser copy functions gobally
 * Disables text and image drag/drop/saving function on PC and mobile devices
-* Javascript validation (displays error message when Javascript is disabled in client browser)
+* Javascript validation (displays error message when Javascript is disabled)
 * Disables keyboard copy (CTRL A, C, X, U, P and S) - Windows OS
-* Disables F key command for accessing developer tools (used for viewing source code)
-* Disables bookmark edit key (used for viewing source code)
-* Uses compressed Javascript (increases load speed, execution times and reduce bandwidth/http requests)
+* Disables F key command for accessing developer tools
+* Uses compressed Javascript (increases load speed and reduces http requests)
 * The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (basic protection)
 * No configuration, customization or coding needed. Simply plug in and leave the plugin to do what it does best - protect your content!
 * No obtrusive popups or alert messages on right click (decreases your bounce rate)
@@ -35,10 +34,10 @@ This is a plugin with teeth - an absolute must for any business owner, blogger a
 **Our Pro Edition Features**
 
 * Everything in the basic version plus
-* Admin can exclude specific PAGES and POSTS from being protected (global functions)
+* Admin can exclude specific PAGES and POSTS from being protected
 * Admin can disable protection for admins and registered/logged in users
-* Super aggressive image protection (near impossible for users to steal your images on PC and Mobile)
-* Super image protection is extended beyond the context menu (uses improved layering technology)
+* Super aggressive image protection (near impossible for users to steal your images on PC and mobile devices)
+* Super image protection is extended beyond the context menu (uses new layering/masking technology)
 * Prt Sc (Print Screen) deterrent agent added (Preventative measure in image theft)
 * Super RSS feed protection against content scraping software and autoblogs
 * Extended text and image protection for mobile devices and smartphones
@@ -104,7 +103,7 @@ This plugin works on all major browsers and theme frameworks. The full functiona
 
 = What is the difference between the free version and the pro version? =
 
-The pro version includes super aggressive image protection (making it near impossible for a user to copy/steal your images), Prt Sc (print screen) deterrent agent, source code padding function, optional alert message for right click, RSS feed protection against content scraping software/autoblogs and much, much more! See our features above.
+The pro version includes super aggressive image protection (making it near impossible for a user to copy/steal your images), Prt Sc (print screen) deterrent agent, optional alert message for right click, RSS feed protection against content scraping software/autoblogs and much, much more! See our features above.
 
 = Why did you remove the iframe breaker? =
 
