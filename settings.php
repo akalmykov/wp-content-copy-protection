@@ -15,13 +15,13 @@
 			<font size="1">Super aggressive image/photo protection (near impossible for anyone to steal your images)</font><br />
 			<font size="1">Super image protection is extended beyond the context menu (uses NEW and improved layering technology)</font><br />
 			<font size="1">Super RSS feed protection against content scraping software and auto-blogs</font><br />
-			<font size="1">Upgraded Javascript error message (blank pages served until user enables JS)</font><br />
+			<font size="1">Upgraded Javascript validation (dislays blank pages until user enables Javascript)</font><br />
 			<font size="1">Source code view is disabled from F12, Ctrl+shift+i and all other possible source view instances</font><br />
 			<font size="1">Disables context menu (mouse/keyboard/on-screen keyboard) | Enabled on HREF tags only</font><br />
-			<font size="1">Uses compressed Javascript (increase execution times and reduce bandwidth/http requests)</font><br />
-			<font size="1">Prt Sc (Print Screen) deterrent agent added (NEW - Preventative measure in image theft)</font><br />
-			<font size="1">Extended text and image protection for mobile devices and smart phones</font><br />
-			<font size="1">Keyboard copy commands = Windows, Linux and Mac OSX compatible</font><br />
+			<font size="1">Uses minified JSS and CSS (increase execution times and reduce bandwidth/http requests)</font><br />
+			<font size="1">Prt Sc (Print Screen) deterrent agent added (Preventative measure in image theft + warning page redirect)</font><br />
+			<font size="1">Extended text and image protection for mobile devices and smart phones (upgraded)</font><br />
+			<font size="1">Keyboard copy protection commands is Windows, Linux and Mac OS X compatible</font><br />
 			<font size="1">Fully compatible with all theme frameworks and browsers</font><br />
 			<font size="1">Quality, lightning-fast support (24/7) and FREE lifetime updates</font><br />
 			<font size="1">This is a lightweight, non resource-intensive plugin</font><br />

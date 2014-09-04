@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://securiilock.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.3
+  Version: 1.1.3.2
   Author: RSPublishing
   Author URI: http://securiilock.com/
   License: GPLv2 or later
@@ -41,6 +41,15 @@ function return_settings() {
 	require_once('settings.php');
 }
 
+function cc_conf_link($links) { 
+  $settings_link = '<a href="options-general.php?page=wpcp_options">Settings</a>'; 
+  array_unshift($links, $settings_link); 
+  return $links; 
+}
+ 
+$plugin = plugin_basename(__FILE__); 
+add_filter("plugin_action_links_$plugin", 'cc_conf_link' );
+
 add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
@@ -63,17 +72,11 @@ document.ondragstart=function(){return false};
 </script>
 
 <style type="text/css">
-* : (input, textarea) {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-}
+* : (input,textarea){-webkit-touch-callout:none;-webkit-user-select:none}
 </style>
 
 <style type="text/css">
-img {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-}
+img{-webkit-touch-callout:none;-webkit-user-select:none}
 </style>
 
 <script type="text/javascript">
@@ -85,6 +88,7 @@ document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==1
 </script>
 
 <!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://securiilock.com/ -->
+
 
 
 

@@ -3,9 +3,9 @@
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, photo, security, copy protection, protect blog, plagiarism
-Requires at least: 3.0
+Requires at least: 2.5
 Tested up to:      3.9.2
-Stable tag:        1.1.3
+Stable tag:        1.1.3.2
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ WP Content Copy Protection is a simple, yet aggressive plugin that uses multiple
 
 This is a plugin with teeth - an absolute must for any business owner, blogger and WordPress site owner who is serious about protecting his online text and image content! Simple, effective, lightweight!
 
-**Basic Features (Mostly Windows OS Compatible)**
+**Basic Features**
 
 * Disables context menu globally (only enabled on HREF tags) 
 * Disables text selection and browser copy functions globally
@@ -31,7 +31,7 @@ This is a plugin with teeth - an absolute must for any business owner, blogger a
 * No obtrusive popups or alert messages on right click (decreases your bounce rate)
 * Non resource-intensive
 
-**Our Pro Edition Features (Windows, Mac OS X and Linux Compatible)**
+**Our Pro Features (Windows, Mac OS X and Linux Compatible)**
 
 * Everything in the basic version plus
 * Admin can exclude specific PAGES and POSTS from being protected
@@ -281,3 +281,10 @@ We have developed a small plugin that will act as an extension to WP Content Cop
 
 = 1.1.3 =
 * fixed img drag/drop bug
+
+= 1.1.3.2 = 
+* minified css
+* added settings link to plugin menu in dashboard
+* updated plugin from v1.1.3 - v1.1.3.2
+* tested compatibility on WordPress v4.0
+* general housekeeping
