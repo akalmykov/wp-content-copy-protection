@@ -5,17 +5,17 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, photo, security, copy protection, protect blog, plagiarism
 Requires at least: 2.5
 Tested up to:      4.0
-Stable tag:        1.1.3.2
+Stable tag:        1.1.3.3
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-The WP Content Copy Protection plugin uses aggressive techniques in protecting your valuable site content (text, source, images) from being stolen.
+The WP Content Copy Protection plugin uses aggressive techniques in protecting your valuable online content (text, source, images) from being stolen.
 
 == Description ==
 
-WP Content Copy Protection is a simple, yet aggressive plugin that uses multiple techniques in protecting your content from being stolen. Some of the most common copy methods (via mouse, keyboard and browser), such as right-click, image dragging, image saving, text selection, source code viewing and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin. 
+WP Content Copy Protection is a simple, yet aggressive plugin that uses multiple, aggressive techniques in protecting your content from being stolen. Some of the most common copy methods (via mouse, keyboard and browser), such as right-click, image dragging/saving, text selection/drag/drop, source code viewing and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin (to name but a few). 
 
-This is a plugin with teeth - an absolute must for any business owner, blogger and WordPress site owner who is serious about protecting his online text and image content! Simple, effective, lightweight!
+This is a plugin with teeth - an absolute must for any business owner, blogger and WordPress site owner who is serious about protecting his online content! Simple, effective, lightweight! It works!
 
 **Basic Features**
 
@@ -26,39 +26,42 @@ This is a plugin with teeth - an absolute must for any business owner, blogger a
 * Disables keyboard copy (CTRL A, C, X, U, P and S) - Windows OS
 * Disables F key command for accessing developer tools
 * Uses compressed Javascript (increases load speed and reduces http requests)
-* The image link URL is automatically removed and defaulted to the 'none' setting in your image upload settings (basic protection)
+* The image link URL is automatically removed and defaulted to the 'none' setting (basic image protection)
 * No configuration, customization or coding needed. Simply plug in and leave the plugin to do what it does best - protect your content!
 * No obtrusive popups or alert messages on right click (decreases your bounce rate)
 * Non resource-intensive
 
 **Our Pro Features (Windows, Mac OS X and Linux Compatible)**
 
+[See our Pro Edition in action](http://yooplugins.com/)
+
 * Everything in the basic version plus
-* Admin can exclude specific PAGES and POSTS from being protected
+* Admin can exclude specific PAGES/POSTS/CATEGORIES from being protected
 * Admin can disable protection for admins and registered/logged in users
 * Super aggressive image protection (near impossible for users to steal your images on PC and mobile devices)
 * Super image protection is extended beyond the context menu (uses new layering/masking technology)
+* Copy function is impossible from browser menu (even when using the 'select all' function)
 * Prt Sc (Print Screen) deterrent agent added (Preventative measure in image theft)
+* Prt Sc is extended with a redirect feature (redirect user when prtsc is triggered)
 * Super RSS feed protection against content scraping software and autoblogs
 * Extended text and image protection for mobile devices and smartphones
 * Source code view is disabled from F12, Ctrl+shift+i and other instances
+* Pro edition has extended keyboard copy protection commands
 * Keyboard copy commands is Windows, Linux and Mac OS X compatible
 * Disables context menu (mouse/keyboard/on-screen keyboard)
-* Upgraded JS validation with extended user instructions
+* Upgraded JavaScript validation with extended user instructions
 * Works in IE9, IE10, Firefox, Google Chrome, Opera and Safari
-* WPCCP is fully compatible with all major theme frameworks and browsers
+* Fully compatible with all major theme frameworks and browsers
 * This is a lightweight, non resource-intensive plugin
 * Free lifetime updates and superior support (24/7)
 * more awesome features are currently being added
-
-[See WP Content Copy Protection Pro Edition in action](http://www.securiilock.com/)
 
 While this will most certainly help protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
 == This Plugin will NOT ==
 
 1. Have any negative impact on your SEO.
-2. Have any negative effect on your Advertising (such as Adsense) : Embed codes are not affected by this plugin in any way.
+2. Have any negative effect on your Advertising (such as Adsense) : Embeddable codes are not affected by this plugin in any way.
 
 == Installation ==
 
@@ -69,11 +72,11 @@ While this will most certainly help protect your content, do remember that there
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
-Just email us at: support@securiilock.com / Email Subject : WP Content Copy Protection
+Just email us at: support@yooplugins.com / Email Subject : WP Content Copy Protection
 
 == Upgrade Notice ==
 
-= Version 1.1.2 = 
+= Version 1.1.3.3 = 
 
 == Screenshots ==
 
@@ -111,7 +114,7 @@ We decided to remove the Iframe breaker due to conflict with theme appearance/cu
 
 = How would I break out of Iframes now? =
 
-We have developed a small plugin that will act as an extension to WP Content Copy Protection. This plugin, WP noFrame/noClickjacking can be found [HERE](http://wordpress.org/plugins/wp-noframenoclickjacking/). This plugin is a simple (yet) effective frame breaking plugin that protects your site content from being embedded into other sites - effectively defending you against clickjacking attacks. This is achieved by adding a Header always append X-Frame-Options DENY instruction to your .htaccess file - where the DENY rule will prevent ALL domains from framing your content.
+We have developed a small plugin that will act as an extension to WP Content Copy Protection. This plugin, WP noFrame/noClickjacking can be found [HERE](http://wordpress.org/plugins/wp-noframenoclickjacking/). This plugin is a simple (yet) effective frame breaking plugin (iframe buster) that protects your site content from being embedded into other sites - effectively defending you against clickjacking attacks. This is achieved by adding a Header always append X-Frame-Options DENY instruction to your .htaccess file - where the DENY rule will prevent ALL domains from framing your content.
 
 == Changelog ==
 
@@ -288,3 +291,11 @@ We have developed a small plugin that will act as an extension to WP Content Cop
 * updated plugin from v1.1.3 - v1.1.3.2
 * tested compatibility on WordPress v4.0
 * general housekeeping
+
+= 1.1.3.3 = 
+* disabled quickfind option (can be used to bypass all other keyboard commands)
+* changed plugin and author URI along with support email
+* modified JavaScript validation error message
+* made changes to settings.php and readme.txt
+* general housekeeping
+* upgraded v1.1.3.3

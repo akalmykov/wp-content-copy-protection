@@ -2,17 +2,17 @@
 
 /*
   Plugin Name: WP Content Copy Protection
-  Plugin URI: http://securiilock.com/
+  Plugin URI: http://yooplugins.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.3.2
-  Author: RSPublishing
-  Author URI: http://securiilock.com/
+  Version: 1.1.3.3
+  Author: RSPublishing|YOOPlugins
+  Author URI: http://yooplugins.com/
   License: GPLv2 or later
   License URI: http://www.gnu.org/licenses/gpl-2.0.html/
  */
 
 /*
-  Copyright 2013/2014  Rynaldo Stoltz  (email: support@securiilock.com | web: http://securiilock.com/)
+  Copyright 2013/2014  Rynaldo Stoltz  (email: support@yooplugins.com | web: http://yooplugins.com/)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -55,11 +55,11 @@ update_option('image_default_link_type','none');
 
 function fwpcon_pro() { ?>
 
-<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://securiilock.com/ -->
+<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://yooplugins.com/ -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
-   <div style="font-family: Tahoma; font-size: 14px; background-color:#FFF000; padding: 10pt;">Please enable your Javascript to see this page as it is meant to appear!</div></div>
+   <div style="font-family: Trebuchet MS; font-size: 14px; background-color:#FFF000; padding: 10pt;">Oops! It appears that you have disabled your Javascript. In order for you to see this page as it is meant to appear, we ask that you please re-enable your Javascript!</div></div>
 </noscript></div>
 
 <script type="text/javascript">
@@ -80,14 +80,15 @@ img{-webkit-touch-callout:none;-webkit-user-select:none}
 </style>
 
 <script type="text/javascript">
-window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
+window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==70||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==70||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
 </script>
 
 <script type="text/javascript">
 document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
 </script>
 
-<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://securiilock.com/ -->
+<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
+
 
 
 
