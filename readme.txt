@@ -4,8 +4,8 @@ Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, photo, security, copy protection, protect blog, plagiarism
 Requires at least: 2.5
-Tested up to:      4.0
-Stable tag:        1.1.3.3
+Tested up to:      4.1.1
+Stable tag:        1.1.4
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,37 +15,39 @@ The WP Content Copy Protection plugin uses aggressive techniques in protecting y
 
 WP Content Copy Protection is a simple, yet aggressive plugin that uses multiple, aggressive techniques in protecting your content from being stolen. Some of the most common copy methods (via mouse, keyboard and browser), such as right-click, image dragging/saving, text selection/drag/drop, source code viewing and keyboard copy shortcuts, such as CTRL A, C, X, U, S, and P are disabled with this plugin (to name but a few). 
 
-This is a plugin with teeth - an absolute must for any business owner, blogger and WordPress site owner who is serious about protecting his online content! Simple, effective, lightweight! It works!
+This is a plugin with teeth - an absolute must for any business owner, blogger and WordPress site owner who is serious about protecting his online content! Simple, effective, lightweight! This is by far the most affective content copy protection plugin you will come across.
 
 **Basic Features**
 
-* Disables context menu globally (only enabled on HREF tags) 
-* Disables text selection and browser copy functions globally
+* Disables context menu (right click)
+* Context menu is only clickable on HREFs 
+* Disables text selection and browser copy functions
 * Disables text and image drag/drop/saving function on PC and mobile devices
 * Javascript validation (displays error message when Javascript is disabled)
 * Disables keyboard copy (CTRL A, C, X, U, P and S) - Windows OS
-* Disables F key command for accessing developer tools
+* Disables f-key command for accessing developer tools
 * Uses compressed Javascript (increases load speed and reduces http requests)
 * The image link URL is automatically removed and defaulted to the 'none' setting (basic image protection)
-* No configuration, customization or coding needed. Simply plug in and leave the plugin to do what it does best - protect your content!
-* No obtrusive popups or alert messages on right click (decreases your bounce rate)
-* Non resource-intensive
+* No configuration, customization or coding needed. Simply plug in and leave
+* No obtrusive popups or alert messages (decreases your bounce rate)
+* This is a non resource-intensive plugin
+
 
 **Our Pro Features (Windows, Mac OS X and Linux Compatible)**
 
-[See our Pro Edition in action](http://yooplugins.com/)
+[See our Pro Edition in action](http://yooplugins.com/downloads/wp-content-copy-protection-pro/)
 
 * Everything in the basic version plus
 * Admin can exclude specific PAGES/POSTS/CATEGORIES from being protected
 * Admin can disable protection for admins and registered/logged in users
 * Super aggressive image protection (near impossible for users to steal your images on PC and mobile devices)
-* Super image protection is extended beyond the context menu (uses new layering/masking technology)
+* Super image protection is extended beyond the context menu (uses masking technology)
+* Removes feeds (rdf, rss, rss2, atom, rss2_comments and atom_comments) from content scrapers
 * Copy function is impossible from browser menu (even when using the 'select all' function)
 * Prt Sc (Print Screen) deterrent agent added (Preventative measure in image theft)
-* Prt Sc is extended with a redirect feature (redirect user when prtsc is triggered)
-* Super RSS feed protection against content scraping software and autoblogs
-* Extended text and image protection for mobile devices and smartphones
-* Source code view is disabled from F12, Ctrl+shift+i and other instances
+* Javascript validation now includes an added redirect feature
+* Extended CSS text and image protection for mobile devices and smartphones
+* Source code view is disabled from F12, Ctrl+shift+i and other hotkey instances
 * Pro edition has extended keyboard copy protection commands
 * Keyboard copy commands is Windows, Linux and Mac OS X compatible
 * Disables context menu (mouse/keyboard/on-screen keyboard)
@@ -53,10 +55,10 @@ This is a plugin with teeth - an absolute must for any business owner, blogger a
 * Works in IE9, IE10, Firefox, Google Chrome, Opera and Safari
 * Fully compatible with all major theme frameworks and browsers
 * This is a lightweight, non resource-intensive plugin
-* Free lifetime updates and superior support (24/7)
+* Quality Support | Dedicated Devs
+
 * more awesome features are currently being added
 
-While this will most certainly help protect your content, do remember that there are many other means one could use to get their hands on your content without using the context menu.
 
 == This Plugin will NOT ==
 
@@ -299,3 +301,9 @@ We have developed a small plugin that will act as an extension to WP Content Cop
 * made changes to settings.php and readme.txt
 * general housekeeping
 * upgraded v1.1.3.3
+
+= 1.1.4 =
+* tested compatibility with core v4.1.1
+* added rating link setting in plugin menu
+* changed version number
+* general housekeeping 

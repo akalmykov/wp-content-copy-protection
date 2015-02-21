@@ -4,15 +4,15 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://yooplugins.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.3.3
-  Author: RSPublishing|YOOPlugins
-  Author URI: http://yooplugins.com/
+  Version: 1.1.4
+  Author: RSPublishing
+  Author URI: http://yooplugins.com/downloads/wp-content-copy-protection-pro/
   License: GPLv2 or later
   License URI: http://www.gnu.org/licenses/gpl-2.0.html/
  */
 
 /*
-  Copyright 2013/2014  Rynaldo Stoltz  (email: support@yooplugins.com | web: http://yooplugins.com/)
+  Copyright 2013-2015  Rynaldo Stoltz  (email: support@yooplugins.com | web: http://yooplugins.com/)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -50,10 +50,21 @@ function cc_conf_link($links) {
 $plugin = plugin_basename(__FILE__); 
 add_filter("plugin_action_links_$plugin", 'cc_conf_link' );
 
+function rate_wpccp($links, $file) {
+	if ($file == plugin_basename(__FILE__)) {
+		$rate_url = 'http://wordpress.org/support/view/plugin-reviews/' . basename(dirname(__FILE__)) . '?rate=5#postform';
+		$links[] = '<a href="' . $rate_url . '" target="_blank" title="Click here to rate and review this plugin on WordPress.org">Rate this plugin</a>';
+	}
+	return $links;
+}
+add_filter('plugin_row_meta', 'rate_wpccp', 10, 2);
+
 add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() { ?>
+function fwpcon_pro() { 
+
+?>
 
 <!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://yooplugins.com/ -->
 
@@ -88,7 +99,6 @@ document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==1
 </script>
 
 <!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
-
 
 
 
