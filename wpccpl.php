@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://yooplugins.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.4
+  Version: 1.1.4.1
   Author: RSPublishing
   Author URI: http://yooplugins.com/downloads/wp-content-copy-protection-pro/
   License: GPLv2 or later
@@ -66,7 +66,7 @@ function fwpcon_pro() {
 
 ?>
 
-<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Starts - http://yooplugins.com/ -->
+<!-- WP Content Copy Protection script by Rynaldo Stoltz Starts - http://yooplugins.com/ -->
 
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
@@ -98,7 +98,7 @@ window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.whic
 document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
 </script>
 
-<!-- WP Content Copy Protection ™ script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
+<!-- WP Content Copy Protection script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
 
 
 

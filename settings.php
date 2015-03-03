@@ -14,9 +14,10 @@
 			<font size="3">√ Admin can disable protection from admins and registered/logged in users</font><br />
 			<font size="3">√ Super aggressive image/photo protection (near impossible for anyone to steal your images)</font><br />
 			<font size="3">√ Super image protection is extended beyond the context menu (uses advanced masking technology)</font><br />
+			<font size="3">√ Inherently disables right click menu on default video and audio (HTML5)  </font><br />
 			<font size="3">√ Copy functions are impossible from browser menu (even when using the 'select all' function)</font><br />
 			<font size="3">√ Removes feeds (rdf, rss, rss2, atom, rss2_comments and atom_comments) from content scrapers</font><br />
-			<font size="3">√ Upgraded Javascript validation (includes a newly added redirect feature)</font><br />
+			<font size="3">√ Upgraded Javascript validation (includes a newly added idle redirect feature)</font><br />
 			<font size="3">√ Source code view is disabled from F12, Ctrl+shift+i and all other possible source view hotkeys</font><br />
 			<font size="3">√ Disables context (right click) via mouse/keyboard/on-screen keyboard | enabled on HREF tags only</font><br />
 			<font size="3">√ Uses minified JSS and CSS (increase execution times and reduce bandwidth/http requests)</font><br />
