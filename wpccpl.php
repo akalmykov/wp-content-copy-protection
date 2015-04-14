@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://yooplugins.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.4.1
+  Version: 1.1.4.2
   Author: RSPublishing
   Author URI: http://yooplugins.com/downloads/wp-content-copy-protection-pro/
   License: GPLv2 or later
@@ -57,8 +57,8 @@ function rate_wpccp($links, $file) {
 	}
 	return $links;
 }
-add_filter('plugin_row_meta', 'rate_wpccp', 10, 2);
 
+add_filter('plugin_row_meta', 'rate_wpccp', 10, 2);
 add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
@@ -71,7 +71,7 @@ function fwpcon_pro() {
 <div align="center"><noscript>
    <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
    <div style="font-family: Trebuchet MS; font-size: 14px; background-color:#FFF000; padding: 10pt;">Oops! It appears that you have disabled your Javascript. In order for you to see this page as it is meant to appear, we ask that you please re-enable your Javascript!</div></div>
-</noscript></div>
+   <meta http-equiv="refresh" content="3;URL='http://google.com'"></noscript></div></noscript></div>
 
 <script type="text/javascript">
 function disableSelection(e){if(typeof e.onselectstart!="undefined")e.onselectstart=function(){return false};else if(typeof e.style.MozUserSelect!="undefined")e.style.MozUserSelect="none";else e.onmousedown=function(){return false};e.style.cursor="default"}window.onload=function(){disableSelection(document.body)}
@@ -97,6 +97,7 @@ window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.whic
 <script type="text/javascript">
 document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
 </script>
+
 
 <!-- WP Content Copy Protection script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
 
