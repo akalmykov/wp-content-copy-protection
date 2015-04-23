@@ -2,10 +2,10 @@
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
-Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, video protect, security, copy protection, protect blog, plagiarism
-Requires at least: 2.5
-Tested up to:      4.1.1
-Stable tag:        1.1.4.2
+Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, copy protect, security, copy protection, protect blog, plagiarism
+Requires at least: 3.0
+Tested up to:      4.1.2
+Stable tag:        1.1.4.3
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,16 +69,16 @@ This is a plugin with teeth - and an absolute must for any business owner, blogg
 
 1. Download the .zip file
 2. Upload and extract the contents of the zip file to your wp-content/plugins/folder
-3. Activate the Full-WP-Content-Security plugin in your WP-admin / Plugins
+3. Activate the plugin
 4. Enjoy!
 
 == Feedback, Questions, Help, Bug Reporting, and Suggestions ==
 
-Just email us at: support@yooplugins.com / Email Subject : WP Content Copy Protection
+Just email us at: rcstoltz@gmail.com / Email Subject : WP Content Copy Protection
 
 == Upgrade Notice ==
 
-= Version 1.1.4.2 = 
+= Version 1.1.4.3 = 
 
 == Screenshots ==
 
@@ -321,3 +321,8 @@ This plugin inheritently disables right click/copy/save functions on your defaul
 * corrected upgrade notice version number
 * readme.txt and settings changes
 * general housekeeping
+
+= 1.1.4.3 =
+* tested compatibility with core 4.1.2
+* changed support email
+* changed stable tag
