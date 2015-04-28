@@ -46,7 +46,7 @@ This is a plugin with teeth - and an absolute must for any business owner, blogg
 * Super image protection is extended beyond just the context menu (uses advanced masking technology)
 * Inherently disables context menu (right click) and save functions on HTML5 video and audio embeds (mobile friendly)
 * Removes feeds (rdf, rss, rss2, atom, rss2_comments and atom_comments) from content scrapers and autoblogs
-* Secures your uploads directory as well as uploads subdirectories from public access (direct viewing)
+* Secures your uploads directory as well as uploads subdirectories from public access (adds blank index files)
 * Copy function is impossible from the browser menu (even when using the 'select all' function in browser)
 * Prt Sc (Print Screen) deterrent agent added (Preventative measure in image theft using print screen)
 * Javascript validation upgraded and now includes an added idle redirect feature and user instructions
