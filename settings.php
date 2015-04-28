@@ -17,6 +17,7 @@
 			<font size="3">√ Inherently disables right click context menu on default HTML5 video and audio embeds  </font><br />
 			<font size="3">√ Copy functions are impossible from browser menu (even when using the 'select all' function)</font><br />
 			<font size="3">√ Removes feeds (rdf, rss, rss2, atom, rss2_comments and atom_comments) from content scrapers</font><br />
+			<font size="3">√ Secures your uploads directory as well as subdirectories from public access (direct)</font><br />
 			<font size="3">√ Upgraded Javascript validation (includes a newly added idle redirect feature to disorient offenders)</font><br />
 			<font size="3">√ Source code view is disabled from F12, Ctrl+shift+i and all other possible source view hotkeys</font><br />
 			<font size="3">√ Disables context (right click) via mouse/keyboard/on-screen keyboard | Only enabled on HREF tags</font><br />

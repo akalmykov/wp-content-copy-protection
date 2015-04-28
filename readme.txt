@@ -5,7 +5,7 @@ Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_bu
 Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, copy protect, security, copy protection, protect blog, plagiarism
 Requires at least: 3.0
 Tested up to:      4.1.2
-Stable tag:        1.1.4.3
+Stable tag:        1.1.5
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,7 @@ This is a plugin with teeth - and an absolute must for any business owner, blogg
 * Disables text selection and mouse/keyboard/browser copy functions
 * Common copy methods disabled from onscreen keyboard and shortcut context key
 * Disables text and image drag/drop/saving function on PC and mobile devices
+* Secures your uploads directory from public access (adds a blank index file)
 * Disables right click and save function on default video and audio embeds
 * Javascript validation (displays error message when Javascript is disabled)
 * Javascript validation optimized with redirect feature to disorient offender
@@ -45,6 +46,7 @@ This is a plugin with teeth - and an absolute must for any business owner, blogg
 * Super image protection is extended beyond just the context menu (uses advanced masking technology)
 * Inherently disables context menu (right click) and save functions on HTML5 video and audio embeds (mobile friendly)
 * Removes feeds (rdf, rss, rss2, atom, rss2_comments and atom_comments) from content scrapers and autoblogs
+* Secures your uploads directory as well as uploads subdirectories from public access (direct viewing)
 * Copy function is impossible from the browser menu (even when using the 'select all' function in browser)
 * Prt Sc (Print Screen) deterrent agent added (Preventative measure in image theft using print screen)
 * Javascript validation upgraded and now includes an added idle redirect feature and user instructions
@@ -78,7 +80,7 @@ Just email us at: rcstoltz@gmail.com / Email Subject : WP Content Copy Protectio
 
 == Upgrade Notice ==
 
-= Version 1.1.4.3 = 
+= Version 1.1.5 = 
 
 == Screenshots ==
 
@@ -326,3 +328,9 @@ This plugin inheritently disables right click/copy/save functions on your defaul
 * tested compatibility with core 4.1.2
 * changed support email
 * changed stable tag
+
+= 1.1.5 =
+* added function to secure uploads dir from direct user access (without this function, all images and uploads can be accessed by default)
+* modified index.php file (this file will be copied to user's uploads dir) 
+* changed stable tag (v1.1.5)
+

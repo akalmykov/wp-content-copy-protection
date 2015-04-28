@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://yooplugins.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.4.2
+  Version: 1.1.5
   Author: RSPublishing
   Author URI: http://yooplugins.com/downloads/wp-content-copy-protection-pro/
   License: GPLv2 or later
@@ -57,6 +57,17 @@ function rate_wpccp($links, $file) {
 	}
 	return $links;
 }
+
+function secure_uploads_dir() {
+	$empty_file = realpath( dirname( __FILE__ ) ) . '/index.php';
+	$start_dir = wp_upload_dir();
+	$copy_file = $start_dir['basedir'] . '/index.php';
+	if(!file_exists($copy_file)){
+		copy($empty_file, $copy_file);
+	}
+}
+
+register_activation_hook( __FILE__, 'secure_uploads_dir' );
 
 add_filter('plugin_row_meta', 'rate_wpccp', 10, 2);
 add_action('wp_head', 'fwpcon_pro');
