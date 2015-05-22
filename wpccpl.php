@@ -4,7 +4,7 @@
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://yooplugins.com/
   Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.5
+  Version: 1.1.6
   Author: RSPublishing
   Author URI: http://yooplugins.com/downloads/wp-content-copy-protection-pro/
   License: GPLv2 or later
@@ -59,11 +59,21 @@ function rate_wpccp($links, $file) {
 }
 
 function secure_uploads_dir() {
-	$empty_file = realpath( dirname( __FILE__ ) ) . '/index.php';
 	$start_dir = wp_upload_dir();
-	$copy_file = $start_dir['basedir'] . '/index.php';
-	if(!file_exists($copy_file)){
-		copy($empty_file, $copy_file);
+	secure_copy_file($start_dir['basedir']);
+}
+
+function secure_copy_file($dir){
+	$empty_file = realpath( dirname( __FILE__ ) ) . '/index.php';
+	copy($empty_file, $dir . '/index.php');
+	if ($dh = opendir($dir)) { 
+		while (($file = readdir($dh)) !== false) { 
+			if ( is_dir($dir . '/' . $file) && $file!='.' && $file!='..' ) {
+				secure_copy_file( $dir . '/' . $file );
+			}
+			
+		}
+		closedir($dh);
 	}
 }
 
@@ -109,9 +119,7 @@ window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.whic
 document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==18){return false}}
 </script>
 
-
 <!-- WP Content Copy Protection script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
-
 
 
 
