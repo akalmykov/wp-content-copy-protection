@@ -2,10 +2,10 @@
 
 Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
-Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, copy protect, security, copy protection, protect blog, plagiarism
+Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, copyprotect, security, copy protection, protect blog, plagiarism, duplicate, seo
 Requires at least: 3.0
 Tested up to:      4.2.2
-Stable tag:        1.1.7
+Stable tag:        1.1.7.1
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,7 +46,7 @@ This is a plugin with teeth - and an absolute must for any business owner, blogg
 	√ Compatible with gallery plugins (such as NextGEN and NextCellent) for uncompromised image protection
 	√ Removes feeds (rdf, rss, rss2, atom, rss2_comments and more) from content scrapers and autoblogs
 	√ Includes extended keyboard copy protection commands (Windows, Linux and Mac OS X compatible)
-	√ Includes a Prt Sc (Print Screen) deterrent agent (preventative measure in image theft)
+	√ Includes a strong Prt Sc (Print Screen) deterrent agent (preventative measure in image theft)
 	√ Includes extended CSS text and image protection for mobile devices and smartphones
 	√ Source code view is disabled from F12, Ctrl+Shift+I, Ctrl+U and other combo keys
 	√ Source code padding added (tricks the user into thinking your source is hidden)
@@ -58,6 +58,7 @@ This is a plugin with teeth - and an absolute must for any business owner, blogg
 
 	√ coming soon : source view page/post encryption and much, much more
 
+The WP Content Copy Protection plugin is maintained by [WP Emergency Room](http://wpemergencyroom.com/)
 
 == This Plugin will NOT ==
 
@@ -77,7 +78,7 @@ Just email us at: rcstoltz@gmail.com / Email Subject : WP Content Copy Protectio
 
 == Upgrade Notice ==
 
-= Version 1.1.7 = 
+= Version 1.1.7.1 = 
 
 == Screenshots ==
 
@@ -340,3 +341,10 @@ This plugin inheritently disables right click/copy/save functions on your defaul
 * removed conflicting redeclare issue with another plugin
 * updated the readme file and settings page
 * general housekeeping
+
+= 1.1.7.1 =
+
+* removed idle redirect in js disable function due to conflict with open graph protocol
+* tested functionality alongside social sharing (no issues present)
+* removed duplicated code
+* altered keywords

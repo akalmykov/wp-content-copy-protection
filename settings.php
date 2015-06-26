@@ -1,6 +1,6 @@
 <div class="wrap">
         <h2><?php _e('WP Content Copy Protection Settings', 'wpcp'); ?></h2><br />
-		<font color="ff0000" font size="3">YOU ARE USING THE FREE VERSION OF WP CONTENT COPY PROTECTION. OUR PRO VERSION INCLUDES:</font><br></br><i>Our Pro version adds aggressive protection and is compatible with gallery plugins (such as NextGEN and NextCellent) and WooCommerce. Works on Windows OS, Max OS X and Linux systems</i><br><br/>
+		<font color="ff0000" font size="3">YOU ARE USING THE FREE VERSION OF WP CONTENT COPY PROTECTION. OUR PRO VERSION INCLUDES:</font><br></br><i>Our Premium version adds aggressive protection and is compatible with gallery plugins (such as NextGEN and NextCellent) and WooCommerce. Works on Windows OS, Max OS X and Linux systems</i><br><br/>
 	                <div class="postbox" style="width: 980px;" cellpadding="7">
 					
 
@@ -22,11 +22,12 @@
 			<font size="3">√ Source code padding added (tricks the user into thinking your source is hidden)</font><br />
 			<font size="3">√ No negative side-effects on your SEO (search engines can read your content)</font><br />
 			<font size="3">√ Works (tested) in IE9, IE10, Firefox, Google Chrome, Opera and Safari</font><br />
+			<font size="3">√ Works silently in the background without interfering with the user</font><br />
 			<font size="3">√ Compatible with all major theme frameworks and browsers</font><br />
 			<font size="3">√ Lightweight, non resource-intensive plugin</font><br />
 			<font size="3">√ Quality Support | Dedicated Devs</font><br /><br />
 			<font size="3"><a href="http://yooplugins.com/downloads/wp-content-copy-protection-pro/">Unlock our Pro Version Here</a>
-			<br /><hr />Do you need help fixing your WordPress issues? The <a href="http://wpemergencyroom.com">WP Emergency Room</a> can help!  You get full access to your own personal support team for just about any small WordPress related fixes and tasks - starting at only $15 !<br /><hr />
+			<br /><hr />Do you need help fixing your WordPress issues? Have WordPress tasks you need taken care of? The <a href="http://wpemergencyroom.com">WP Emergency Room</a> can help!  Get full access to your own personal support team for just about any small WordPress related fixes and tasks from only $15 !<br /><hr />
 			<font size="3"><font color ="ff0000">New Plugins and Addons</font><br /><a href="http://yooplugins.com/downloads/wpccp-warnings/">Content Protection Warning Popup</a> <i>(dialog based copyright warning shown to site visitors before they are given access to your site)</i><br /><a href="http://yooplugins.com/downloads/wpccp-nrc-ads/">Content Protection Ads</a> <i>(turns content thieves into money by showing popup image or HTML ads when right-click is triggered)</i><br /><br />
 	<font color ="ff0000" size="3" ><i>HELP US</font> : <font size="3">Please consider making a small donation to help us maintain, update and keep our plugins alive, and YOUR content safe! We appreciate your support!</i></font> <br></br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
