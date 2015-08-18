@@ -3,8 +3,8 @@
 /*
   Plugin Name: WP Content Copy Protection
   Plugin URI: http://yooplugins.com/
-  Description: WP Content Copy Protection prevents plagiarism and protects your valuable content such as source code, text and images from being copied illegally by others. Copy is disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
-  Version: 1.1.7.1
+  Description: WP Content Copy Protection prevents plagiarism and protects your valuable online content (such as source code, text and images) from being copied illegally. Copy methods are disabled via mouse and keyboard. See <a href="options-general.php?page=wpcp_options">Settings > WP Content Copy Protection</a> to learn more about WP Content Copy Protection - The complete content protection plugin for WordPress.
+  Version: 1.1.8.1
   Author: RSPublishing
   Author URI: http://yooplugins.com/downloads/wp-content-copy-protection-pro/
   License: GPLv2 or later
@@ -41,22 +41,26 @@ function return_settings() {
 	require_once('settings.php');
 }
 
-function ccp_config_link($links) { 
-  $settings_link = '<a href="options-general.php?page=wpcp_options">Settings</a>'; 
-  array_unshift($links, $settings_link); 
-  return $links; 
+function ccp_config_link($links) {
+  $settings_link = '<a href="options-general.php?page=wpcp_options">Settings</a>';
+  array_unshift($links, $settings_link);
+  return $links;
 }
- 
-$plugin = plugin_basename(__FILE__); 
+
+$plugin = plugin_basename(__FILE__);
 add_filter("plugin_action_links_$plugin", 'ccp_config_link' );
 
-function rate_wpccp($links, $file) {
+function rate_wpccp_yoo ($links, $file) {
 	if ($file == plugin_basename(__FILE__)) {
 		$rate_url = 'http://wordpress.org/support/view/plugin-reviews/' . basename(dirname(__FILE__)) . '?rate=5#postform';
+		$wpccp_pro_yoo = 'http://yooplugins.com/downloads/wp-content-copy-protection-pro/';
 		$links[] = '<a href="' . $rate_url . '" target="_blank" title="Click here to rate and review this plugin on WordPress.org">Rate this plugin</a>';
+		$links[] = '<a target="_blank" href="'. $wpccp_pro_yoo .'" title="Get Pro version today" style="padding:1px 3px;color:#fff;background:#FF9933;border-radius:1px;">Go&nbsp;Pro</a>';
 	}
 	return $links;
 }
+
+add_filter('plugin_row_meta', 'rate_wpccp_yoo', 10, 2);
 
 function secure_uploads_dir() {
 	$start_dir = wp_upload_dir();
@@ -66,8 +70,8 @@ function secure_uploads_dir() {
 function secure_copy_file($dir){
 	$empty_file = realpath( dirname( __FILE__ ) ) . '/index.php';
 	copy($empty_file, $dir . '/index.php');
-	if ($dh = opendir($dir)) { 
-		while (($file = readdir($dh)) !== false) { 
+	if ($dh = opendir($dir)) {
+		while (($file = readdir($dh)) !== false) {
 			if ( is_dir($dir . '/' . $file) && $file!='.' && $file!='..' ) {
 				secure_copy_file( $dir . '/' . $file );
 			}
@@ -78,11 +82,10 @@ function secure_copy_file($dir){
 
 register_activation_hook( __FILE__, 'secure_uploads_dir' );
 
-add_filter('plugin_row_meta', 'rate_wpccp', 10, 2);
 add_action('wp_head', 'fwpcon_pro');
 update_option('image_default_link_type','none');
 
-function fwpcon_pro() { 
+function fwpcon_pro() {
 
 ?>
 
@@ -125,9 +128,6 @@ document.onkeydown=function(e){e=e||window.event;if(e.keyCode==123||e.keyCode==1
 </script>
 
 <!-- WP Content Copy Protection script by Rynaldo Stoltz Ends - http://yooplugins.com/ -->
-
-
-
 
 
 
