@@ -9,7 +9,7 @@ Stable tag:        1.1.8.1
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Content Copy Protection uses agressive techniques in protecting your online content (text/source/images/video/audio) from being stolen.
+WP Content Copy Protection uses aggressive techniques in protecting your online content (text/source/images/video/audio) from being stolen.
 
 == Description ==
 
