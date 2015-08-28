@@ -4,8 +4,8 @@ Contributors:      RSPublishing
 Donate link:       https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HZWQXQCBC77ZY    
 Tags:              protection, copyright, theft, no right click, content protection, image protection, image protect, copyprotect, security, copy protection, protect blog, plagiarism, duplicate, seo, context menu
 Requires at least: 3.0
-Tested up to:      4.2.2
-Stable tag:        1.1.8.1
+Tested up to:      4.3
+Stable tag:        1.1.8.3
 License:           GPLv2 or Later
 License URI: 	   http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,7 +82,7 @@ Just email us at: rcstoltz@gmail.com / Email Subject : WP Content Copy Protectio
 
 == Upgrade Notice ==
 
-= Version 1.1.8.1 = 
+= Version 1.1.8.3 = 
 
 == Screenshots ==
 
@@ -360,3 +360,9 @@ This plugin inheritently disables right click/copy/save functions on your defaul
 * modified plugin description in plugin screen
 * modified keywords in readme file
 * minor housekeeping on wpccpl.php, settings.php and readme files
+
+= 1.1.8.3 = 
+
+* tested compatibility with core 4.3
+* minor link change in settings file
+* changed version number

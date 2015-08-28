@@ -28,7 +28,7 @@
 			<font size="2">√ lightweight, non resource-intensive plugin</font><br />
 			<font size="2">√ quality Support | dedicated devs</font><br /><br />
 			<font size="2"><a href="http://yooplugins.com/downloads/wp-content-copy-protection-pro/">UNLOCK PRO VERSION HERE</a>
-			<br /><hr /><i>Is your WordPress site optimized for page speed and performance? If not, see how <a href="http://optipress.org/">OPTIPress</a> can help you speed up your site!</i><br /><hr />
+			<br /><hr /><i>Is your WordPress site optimized for page speed and performance? If not, see how <a href="http://wp-superformance.com">WP Superformance</a> can supercharge your WordPress page speed and performance with only one click !</i><br /><hr />
 			<font size="2"><font color ="ff0000">NEW Plugins and Addons</font><br /><a href="http://yooplugins.com/downloads/wpccp-warnings/">Content Protection Warning Popup</a> <i>(dialog based content copyright warning shown to site visitors before they are given access to your site)</i><br /><a href="http://yooplugins.com/downloads/wpccp-nrc-ads/">Content Protection Ads</a> <i>(turns content thieves into money by showing popup image or HTML ads when right-click is triggered)</i><br /><br />
 	<font color ="ff0000" size="2" ><i>HELP US</font> : <font size="2">Please consider making a small donation to help us maintain, update and keep our plugins alive, and YOUR content safe! We appreciate your support!</i></font> <br></br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
